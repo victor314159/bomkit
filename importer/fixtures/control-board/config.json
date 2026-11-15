@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../generated/schema/import-config.schema.json",
+  "kind": "importConfig",
+  "configVersion": "0.1",
+  "name": "osr-control-board-kicad-bom",
+  "version": "1",
+  "sources": {
+    "kicad-bom": {
+      "uri": "https://github.com/nasa-jpl/open-source-rover/blob/master/electrical/pcb/control_board/BOM/bom_v2.0.3_board_ref_parts.csv"
+    }
+  },
+  "document": {
+    "id": "urn:example:bom:jpl-osr-control-board-imported",
+    "revision": "2.0.3",
+    "name": "Open Source Rover control board",
+    "owner": "jpl",
+    "products": ["control-board"],
+    "organizations": {
+      "jpl": { "name": "NASA Jet Propulsion Laboratory", "aliases": ["JPL"] },
+      "digikey": { "name": "Digi-Key", "website": "https://www.digikey.com" }
+    },
+    "parts": {
+      "control-board": { "kind": "custom", "name": "Control board, assembled" }
+    },
+    "notes": [
+      {
+        "text": "The source column 'Number to Order' (spares) is purchasing policy, not product structure: it is not imported."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "columns": {
+        "uid": "UID",
+        "refs": "Reference",
+        "name": "Name",
+        "qty": "Quantity",
+        "value": "Value",
+        "dk": "Digi-Key Part",
+        "url": "URL",
+        "notes": "Notes"
+      },
+      "emit": [
+        {
+          "part": {
+            "id": "'p-' & $lowercase($id(uid))",
+            "kind": "'standard'",
+            "name": "$join([name, value], ', ')",
+            "supplierParts": "$exists(dk) and $not(dk = 'n/a') ? [{ 'supplier': 'digikey', 'sku': dk }]",
+            "notes": "notes ? [{ 'text': notes }]"
+          },
+          "usage": {
+            "parent": "'control-board'",
+            "id": "uid",
+            "quantity": { "value": "$num(qty)" },
+            "designators": "$designators(refs)"
+          },
+          "rules": [
+            {
+              "when": "$not($exists(dk)) or dk = 'n/a'",
+              "issue": {
+                "severity": "warning",
+                "category": "missing",
+                "text": "'No Digi-Key part number for ' & uid & ' (' & refs & '); the source only gives ' & url & '.'"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

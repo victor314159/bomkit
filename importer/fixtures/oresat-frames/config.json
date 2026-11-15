@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../generated/schema/import-config.schema.json",
+  "kind": "importConfig",
+  "configVersion": "0.1",
+  "name": "oresat-frames-bom",
+  "version": "1",
+  "sources": {
+    "frames-bom": {
+      "uri": "https://github.com/oresat/oresat-structure/blob/c08159efe210101d7ea1123d4e0838270f017f5c/Frames/build/framesBOM.xlsx"
+    }
+  },
+  "document": {
+    "id": "urn:example:bom:oresat-frames-imported",
+    "name": "OreSat frame sets 1U, 1.5U, 2U, 3U",
+    "owner": "psas",
+    "products": ["frames-1u", "frames-1.5u", "frames-2u", "frames-3u"],
+    "organizations": {
+      "psas": {
+        "name": "Portland State Aerospace Society",
+        "aliases": ["PSAS", "OreSat"]
+      },
+      "mcmaster": {
+        "name": "McMaster-Carr",
+        "website": "https://www.mcmaster.com"
+      }
+    },
+    "parts": {
+      "frames-1u": { "kind": "custom", "name": "OreSat 1U frame set" },
+      "frames-1.5u": { "kind": "custom", "name": "OreSat 1.5U frame set" },
+      "frames-2u": { "kind": "custom", "name": "OreSat 2U frame set" },
+      "frames-3u": { "kind": "custom", "name": "OreSat 3U frame set" }
+    }
+  },
+  "tables": [
+    {
+      "sheets": ["1U", "1.5U", "2U", "3U"],
+      "columns": {
+        "pn_cell": "PART NUMBER",
+        "desc_cell": "DESCRIPTION",
+        "qty": "QTY."
+      },
+      "derive": {
+        "pn": "$replace(pn_cell, /[\\r\\n]+/, '')",
+        "desc": "$trim($replace(desc_cell, /[\\r\\n]+/, ''))",
+        "frame": "$contains(pn, /_Frame$/) ? (desc ? desc : $lookup({ '1/2': 'Y Frame', '2/1': '+X Frame', '3/1': '-X Frame' }, $string($nth(pn)) & '/' & qty))"
+      },
+      "emit": [
+        {
+          "part": {
+            "id": "$id(pn)",
+            "kind": "'custom'",
+            "name": "desc ? desc : pn",
+            "identifiers": [{ "issuer": "'psas'", "value": "pn" }]
+          },
+          "usage": {
+            "parent": "'frames-' & $lowercase($sheet)",
+            "id": "$id(pn)",
+            "quantity": { "value": "$num(qty)" }
+          },
+          "rules": [
+            {
+              "when": "$exists(frame)",
+              "part": {
+                "id": "$id(pn & ' ' & frame)",
+                "name": "$substringBefore(pn, '_') & ' ' & frame"
+              },
+              "usage": { "id": "$id(frame)" }
+            },
+            {
+              "when": "$exists(frame) and $not($exists(desc))",
+              "issue": {
+                "severity": "info",
+                "category": "assumption",
+                "key": "undescribed-frame",
+                "text": "'Three rows are numbered ' & pn & ' without a description. By its place among them and its quantity, this one is taken as the ' & frame & ', as on the other sheets; to confirm.'"
+              }
+            },
+            {
+              "when": "$contains(pn, /^[0-9]{5}[A-Z][0-9]{2,3}$/)",
+              "part": {
+                "id": "'mcm-' & pn",
+                "kind": "'standard'",
+                "identifiers": "[]",
+                "supplierParts": [{ "supplier": "'mcmaster'", "sku": "pn" }]
+              }
+            },
+            {
+              "when": "pn = '84985A46'",
+              "part": {
+                "id": "'separation-spring'",
+                "name": "'CubeSat separation spring'",
+                "supplierParts": "[]"
+              },
+              "usage": { "id": "'spring'" },
+              "issue": {
+                "severity": "warning",
+                "category": "ambiguous",
+                "text": "'Source row: \"' & pn & ' - ' & desc & '\". McMaster ' & pn & ' is only the CAD stand-in; do not buy it as the flight part.'"
+              }
+            },
+            {
+              "when": "$not($exists(desc)) and $not($exists(frame))",
+              "issue": {
+                "severity": "warning",
+                "category": "missing",
+                "text": "'Description cell is empty for ' & pn & '.'"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

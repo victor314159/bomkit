@@ -1,0 +1,7 @@
+node_modules/
+dist/
+generated/
+package-lock.json
+
+# Canonical serialized output compared byte-for-byte by importer tests.
+importer/fixtures/**/expected.bom.json

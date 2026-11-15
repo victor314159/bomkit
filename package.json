@@ -1,0 +1,40 @@
+{
+  "name": "bomkit",
+  "version": "0.1.0",
+  "description": "bomkit: open data model for manufacturing bills of materials",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "ttsc --noEmit && ttsc -p tools && ttsc -p importer",
+    "build": "ttsc",
+    "schema": "ttsx tools/schema.ts",
+    "examples": "ttsx tools/export-examples.ts",
+    "examples:html": "ttsx tools/export-examples.ts --html",
+    "bomkit": "ttsx tools/cli.ts",
+    "test": "ttsx tools/test.ts && ttsx importer/test.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "prettier": "^3.10.1",
+    "ttsc": "^0.37.1",
+    "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victor314159/bomkit.git"
+  },
+  "author": "victor314159",
+  "private": true,
+  "dependencies": {
+    "typia": "^15.4.1"
+  },
+  "workspaces": [
+    "importer"
+  ]
+}

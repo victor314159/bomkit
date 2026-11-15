@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../generated/schema/import-config.schema.json",
+  "kind": "importConfig",
+  "configVersion": "0.1",
+  "name": "osr-parts-list",
+  "version": "1",
+  "sources": {
+    "parts-list": {
+      "uri": "https://github.com/nasa-jpl/open-source-rover/blob/6b2c5a9c13f311e549aeddcfd11248b834bf0fd2/parts_list/parts_list.csv"
+    }
+  },
+  "document": {
+    "id": "urn:example:bom:jpl-osr-imported",
+    "name": "JPL Open Source Rover",
+    "owner": "jpl",
+    "products": ["rover"],
+    "organizations": {
+      "jpl": { "name": "NASA Jet Propulsion Laboratory", "aliases": ["JPL"] },
+      "gobilda": { "name": "goBILDA", "website": "https://www.gobilda.com" }
+    },
+    "parts": {
+      "rover": { "kind": "custom", "name": "Open Source Rover" }
+    }
+  },
+  "tables": [
+    {
+      "columns": {
+        "assembly": "assembly",
+        "pn": "part #",
+        "name": "long name",
+        "req": "# req in assy",
+        "mult": "assembly multiplier"
+      },
+      "derive": {
+        "general": "assembly = 'general'",
+        "pack": "$match(name, /([0-9]+)[ -]pack/i).groups[0]"
+      },
+      "emit": [
+        {
+          "when": "$not(general)",
+          "shared": true,
+          "part": {
+            "id": "$id(assembly)",
+            "kind": "'custom'",
+            "name": "$uppercase($substring(assembly, 0, 1)) & $substring(assembly, 1) & ' assembly'"
+          },
+          "usage": {
+            "parent": "'rover'",
+            "id": "$id(assembly)",
+            "quantity": { "value": "$num(mult)" }
+          }
+        },
+        {
+          "part": {
+            "id": "'gb-' & pn",
+            "kind": "'standard'",
+            "name": "name",
+            "supplierParts": [{ "supplier": "'gobilda'", "sku": "pn" }]
+          },
+          "usage": {
+            "parent": "general ? 'rover' : $id(assembly)",
+            "id": "pn",
+            "quantity": {
+              "value": "general ? $num(req) * $num(mult) : $num(req)"
+            }
+          },
+          "rules": [
+            {
+              "when": "$exists(pack)",
+              "issue": {
+                "severity": "info",
+                "category": "assumption",
+                "text": "'The source counts packs of ' & pack & ' for ' & pn & ' (\"' & name & '\"). The quantity is imported as written: convert it to pieces and set a pack size.'"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

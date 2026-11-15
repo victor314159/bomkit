@@ -1,0 +1,1812 @@
+{
+  "kind": "bom",
+  "specVersion": "0.1",
+  "id": "urn:example:bom:jpl-osr-control-board-imported",
+  "revision": "2.0.3",
+  "name": "Open Source Rover control board",
+  "owner": "jpl",
+  "products": [
+    "control-board"
+  ],
+  "parts": {
+    "control-board": {
+      "kind": "custom",
+      "name": "Control board, assembled",
+      "usages": [
+        {
+          "id": "A1",
+          "part": "p-a1",
+          "quantity": {
+            "value": 14
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "C2",
+                "C4",
+                "C9",
+                "C10",
+                "C13",
+                "C14",
+                "C15",
+                "C16",
+                "C17",
+                "C18",
+                "C20",
+                "C21",
+                "C33",
+                "C34"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "A2",
+          "part": "p-a2",
+          "quantity": {
+            "value": 4
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "C19",
+                "C25",
+                "C27",
+                "C28"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "A3",
+          "part": "p-a3",
+          "quantity": {
+            "value": 5
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "C1",
+                "C3",
+                "C5",
+                "C6",
+                "C32"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "A4",
+          "part": "p-a4",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "C7"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "A5",
+          "part": "p-a5",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "D1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "A6",
+          "part": "p-a6",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "D8",
+                "D9"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "A7",
+          "part": "p-a7",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "F1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "A8",
+          "part": "p-a8",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J1",
+                "J5"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "A9",
+          "part": "p-a9",
+          "quantity": {
+            "value": 3
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J16",
+                "J17",
+                "J18"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "A10",
+          "part": "p-a10",
+          "quantity": {
+            "value": 3
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J7",
+                "J12",
+                "J15",
+                "J19"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "A11",
+          "part": "p-a11",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J20",
+                "J30"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "A12",
+          "part": "p-a12",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J21"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "A13",
+          "part": "p-a13",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J22",
+                "J23"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "A14",
+          "part": "p-a14",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J24"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "A15",
+          "part": "p-a15",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J25"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "A16",
+          "part": "p-a16",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J26"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 17
+              }
+            ]
+          }
+        },
+        {
+          "id": "A17",
+          "part": "p-a17",
+          "quantity": {
+            "value": 3
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J27",
+                "J28",
+                "J29"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 18
+              }
+            ]
+          }
+        },
+        {
+          "id": "A18",
+          "part": "p-a18",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J3",
+                "J4"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 19
+              }
+            ]
+          }
+        },
+        {
+          "id": "A19",
+          "part": "p-a19",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J2",
+                "J6"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 20
+              }
+            ]
+          }
+        },
+        {
+          "id": "A20",
+          "part": "p-a20",
+          "quantity": {
+            "value": 6
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "J8",
+                "J9",
+                "J10",
+                "J11",
+                "J13",
+                "J14"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 21
+              }
+            ]
+          }
+        },
+        {
+          "id": "A21",
+          "part": "p-a21",
+          "quantity": {
+            "value": 6
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4",
+                "Q5",
+                "Q6"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 22
+              }
+            ]
+          }
+        },
+        {
+          "id": "A22",
+          "part": "p-a22",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R10"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 23
+              }
+            ]
+          }
+        },
+        {
+          "id": "A23",
+          "part": "p-a23",
+          "quantity": {
+            "value": 6
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R15",
+                "R16",
+                "R17",
+                "R36",
+                "R37",
+                "R38"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "A24",
+          "part": "p-a24",
+          "quantity": {
+            "value": 13
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R2",
+                "R3",
+                "R4",
+                "R5",
+                "R11",
+                "R12",
+                "R13",
+                "R14",
+                "R31",
+                "R32",
+                "R33",
+                "R34",
+                "R35"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 25
+              }
+            ]
+          }
+        },
+        {
+          "id": "A25",
+          "part": "p-a25",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R21",
+                "R30"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 26
+              }
+            ]
+          }
+        },
+        {
+          "id": "A26",
+          "part": "p-a26",
+          "quantity": {
+            "value": 6
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R18",
+                "R19",
+                "R20",
+                "R22",
+                "R23",
+                "R24"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 27
+              }
+            ]
+          }
+        },
+        {
+          "id": "A27",
+          "part": "p-a27",
+          "quantity": {
+            "value": 5
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R25",
+                "R26",
+                "R27",
+                "R28",
+                "R29"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 28
+              }
+            ]
+          }
+        },
+        {
+          "id": "A28",
+          "part": "p-a28",
+          "quantity": {
+            "value": 3
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R1",
+                "R6",
+                "R7"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 29
+              }
+            ]
+          }
+        },
+        {
+          "id": "A29",
+          "part": "p-a29",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R8"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 30
+              }
+            ]
+          }
+        },
+        {
+          "id": "A30",
+          "part": "p-a30",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "R9"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 31
+              }
+            ]
+          }
+        },
+        {
+          "id": "A31",
+          "part": "p-a31",
+          "quantity": {
+            "value": 3
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "RC1",
+                "RC2",
+                "RC3"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 32
+              }
+            ]
+          }
+        },
+        {
+          "id": "A32",
+          "part": "p-a32",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "SW1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 33
+              }
+            ]
+          }
+        },
+        {
+          "id": "A33",
+          "part": "p-a33",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "U1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "A34",
+          "part": "p-a34",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "U2"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 35
+              }
+            ]
+          }
+        },
+        {
+          "id": "A35",
+          "part": "p-a35",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "U3"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 36
+              }
+            ]
+          }
+        },
+        {
+          "id": "A36",
+          "part": "p-a36",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "U4"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 37
+              }
+            ]
+          }
+        },
+        {
+          "id": "A37",
+          "part": "p-a37",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "U5",
+                "U6"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 38
+              }
+            ]
+          }
+        },
+        {
+          "id": "A38",
+          "part": "p-a38",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "refdes",
+              "values": [
+                "U7"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "kicad-bom",
+                "row": 39
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "p-a1": {
+      "kind": "standard",
+      "name": "10nf",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "399-9865-1-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 2
+          }
+        ]
+      }
+    },
+    "p-a10": {
+      "kind": "standard",
+      "name": "pwm header, TSW-104-07-F-T",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "TSW-104-07-F-T"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 11
+          }
+        ]
+      }
+    },
+    "p-a11": {
+      "kind": "standard",
+      "name": "test pin header, PEC08SAAN",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "S1012E-08-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 12
+          }
+        ]
+      }
+    },
+    "p-a12": {
+      "kind": "standard",
+      "name": "interconnect header, PPTC102LFBN-RC",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "PPTC102LFBN-RC"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 13
+          }
+        ]
+      }
+    },
+    "p-a13": {
+      "kind": "standard",
+      "name": "rpi header, S9175-ND_rpi_breakout",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "S9175-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 14
+          }
+        ]
+      }
+    },
+    "p-a14": {
+      "kind": "standard",
+      "name": "arduino header, 6posheader",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "455-1708-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 15
+          }
+        ]
+      }
+    },
+    "p-a15": {
+      "kind": "standard",
+      "name": "rpi i2c header, SSW-104-01-F-T",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "SSW-104-01-F-T-ND"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Added +1 of TSW-104-07-F-T. Needs cleanup in kicad files"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 16
+          }
+        ]
+      }
+    },
+    "p-a16": {
+      "kind": "standard",
+      "name": "board interconnect header, brain board side, kk",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "WM6548-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 17
+          }
+        ]
+      }
+    },
+    "p-a17": {
+      "kind": "standard",
+      "name": "brain board other breakout header, PPTC021LFBN-RC",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "S7000-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 18
+          }
+        ]
+      }
+    },
+    "p-a18": {
+      "kind": "standard",
+      "name": "female power header, XT30-F",
+      "notes": [
+        {
+          "text": "needs mate, see other page"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 19
+          }
+        ]
+      }
+    },
+    "p-a19": {
+      "kind": "standard",
+      "name": "power breakout terminal block, ED2580-ND",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "ED2580-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 20
+          }
+        ]
+      }
+    },
+    "p-a2": {
+      "kind": "standard",
+      "name": "100uF",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "399-18272-1-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 3
+          }
+        ]
+      }
+    },
+    "p-a20": {
+      "kind": "standard",
+      "name": "drive motor header, Molex_172675-0613",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "172675-0613"
+        }
+      ],
+      "notes": [
+        {
+          "text": "needs mate, see other page"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 21
+          }
+        ]
+      }
+    },
+    "p-a21": {
+      "kind": "standard",
+      "name": "led bjt transistor, 2N3906",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "2N3906TAFSCT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 22
+          }
+        ]
+      }
+    },
+    "p-a22": {
+      "kind": "standard",
+      "name": "100",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT100RCT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 23
+          }
+        ]
+      }
+    },
+    "p-a23": {
+      "kind": "standard",
+      "name": "10k",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT10K0CT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 24
+          }
+        ]
+      }
+    },
+    "p-a24": {
+      "kind": "standard",
+      "name": "4.7k",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT4K70CT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 25
+          }
+        ]
+      }
+    },
+    "p-a25": {
+      "kind": "standard",
+      "name": "0",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CD14ZT0R00CT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 26
+          }
+        ]
+      }
+    },
+    "p-a26": {
+      "kind": "standard",
+      "name": "68",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT68R0CT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 27
+          }
+        ]
+      }
+    },
+    "p-a27": {
+      "kind": "standard",
+      "name": "82",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT82R0CT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 28
+          }
+        ]
+      }
+    },
+    "p-a28": {
+      "kind": "standard",
+      "name": "1k",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT1K00CT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 29
+          }
+        ]
+      }
+    },
+    "p-a29": {
+      "kind": "standard",
+      "name": "680",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT680RCT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 30
+          }
+        ]
+      }
+    },
+    "p-a3": {
+      "kind": "standard",
+      "name": "100nf",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "399-14065-1-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 4
+          }
+        ]
+      }
+    },
+    "p-a30": {
+      "kind": "standard",
+      "name": "220",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CF14JT220RCT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 31
+          }
+        ]
+      }
+    },
+    "p-a31": {
+      "kind": "standard",
+      "name": "roboclaw, RoboClaw",
+      "notes": [
+        {
+          "text": "appears to be sold out everywhere but basicmicro"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 32
+          }
+        ]
+      }
+    },
+    "p-a32": {
+      "kind": "standard",
+      "name": "estop switches, CT206124-ND",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "CT206124-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 33
+          }
+        ]
+      }
+    },
+    "p-a33": {
+      "kind": "standard",
+      "name": "ina260 power measurement unit, INA260",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "1528-2955-ND"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Appears to be sold out everywhere right now. \r\n\r\nCan bypass on the motor board using 0 ohm resistor (R30)\r\n\r\nAlternative is to buy the TI chip itself and assemble the adafruit breakout board separately yourself. EagleCAD files here"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 34
+          }
+        ]
+      }
+    },
+    "p-a34": {
+      "kind": "standard",
+      "name": "pca9685 corner motor driver, PCA9685",
+      "notes": [
+        {
+          "text": "Alternative sellers:\r\n- rs-online\r\n- https://www.digikey.com/en/products/detail/adafruit-industries-llc/815/4990757"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 35
+          }
+        ]
+      }
+    },
+    "p-a35": {
+      "kind": "standard",
+      "name": "12v regulator, D24V22F12",
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 36
+          }
+        ]
+      }
+    },
+    "p-a36": {
+      "kind": "standard",
+      "name": "5v regulator, D24V150F5",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "2183-2881-ND"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Alternative sellers:\r\n- https://www.digikey.com/en/products/detail/pololu-corporation/2881/10451196 \r\n- https://opencircuit.shop/product/5v-15a-step-down-voltage-regulator-d24v150f5 \r\n- https://www.solarbotics.com/product/51017/"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 37
+          }
+        ]
+      }
+    },
+    "p-a37": {
+      "kind": "standard",
+      "name": "LED array, DC10CGKWA",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "DC7G3HWA"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Used DC7G3HWA originally for v2.0.1 . That's obsolete now."
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 38
+          }
+        ]
+      }
+    },
+    "p-a38": {
+      "kind": "standard",
+      "name": "3.3v regulator, MIC2937A-3.3WT",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "576-2235-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 39
+          }
+        ]
+      }
+    },
+    "p-a4": {
+      "kind": "standard",
+      "name": "10uf",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "399-ESK106M050AC3DACT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 5
+          }
+        ]
+      }
+    },
+    "p-a5": {
+      "kind": "standard",
+      "name": "motor power return diode",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "497-2738-5-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 6
+          }
+        ]
+      }
+    },
+    "p-a6": {
+      "kind": "standard",
+      "name": "led diode, 1N4148",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "1655-1N4148CT-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 7
+          }
+        ]
+      }
+    },
+    "p-a7": {
+      "kind": "standard",
+      "name": "fuse holder, Fuse Holder",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "732-11376-ND"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 8
+          }
+        ]
+      }
+    },
+    "p-a8": {
+      "kind": "standard",
+      "name": "male power header, XT30-M",
+      "notes": [
+        {
+          "text": "needs mate, see other page"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 9
+          }
+        ]
+      }
+    },
+    "p-a9": {
+      "kind": "standard",
+      "name": "phoenix contact header, WM25701-ND",
+      "supplierParts": [
+        {
+          "supplier": "digikey",
+          "sku": "WM25701-ND"
+        }
+      ],
+      "notes": [
+        {
+          "text": "needs mate, see other page\r\n\r\nalternative suppliers: \r\n- https://www.arrow.com/en/products/5452096/phoenix-contact \r\n- https://www.digikey.com/en/products/detail/phoenix-contact/5452096/5186808?s=N4IgTCBcDa4OxwLQEZkBYAMbEDkAiIAugL5A"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 10
+          }
+        ]
+      }
+    }
+  },
+  "documents": {
+    "kicad-bom": {
+      "name": "bom_v2.0.3_board_ref_parts.csv",
+      "type": "other",
+      "mediaType": "text/csv",
+      "uri": "https://github.com/nasa-jpl/open-source-rover/blob/master/electrical/pcb/control_board/BOM/bom_v2.0.3_board_ref_parts.csv",
+      "sha256": "e14e7c45acec038a4cae8be47967c029de5d80876a3bdf356bc06fff922bea43",
+      "size": 9652
+    }
+  },
+  "organizations": {
+    "digikey": {
+      "name": "Digi-Key",
+      "website": "https://www.digikey.com"
+    },
+    "jpl": {
+      "name": "NASA Jet Propulsion Laboratory",
+      "aliases": [
+        "JPL"
+      ]
+    }
+  },
+  "generator": {
+    "tool": "bomkit-import",
+    "version": "0.1.0",
+    "config": {
+      "name": "osr-control-board-kicad-bom",
+      "version": "1"
+    },
+    "sources": [
+      "kicad-bom"
+    ]
+  },
+  "notes": [
+    {
+      "text": "The source column 'Number to Order' (spares) is purchasing policy, not product structure: it is not imported."
+    }
+  ],
+  "issues": [
+    {
+      "id": "import-21b22a7956b8",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No Digi-Key part number for A8 (J1 J5); the source only gives https://www.amazon.com/gp/product/B0875MBLNH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1.",
+      "subjects": [
+        {
+          "part": "control-board",
+          "usage": "A8"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-caeef87387b1",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No Digi-Key part number for A18 (J3 J4); the source only gives https://www.amazon.com/gp/product/B0875MBLNH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1.",
+      "subjects": [
+        {
+          "part": "control-board",
+          "usage": "A18"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 19
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-773da0264df3",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No Digi-Key part number for A31 (RC1 RC2 RC3); the source only gives https://www.basicmicro.com/Roboclaw-2x7A-Motor-Controller_p_55.html.",
+      "subjects": [
+        {
+          "part": "control-board",
+          "usage": "A31"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 32
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-da04fe2ef0ce",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No Digi-Key part number for A34 (U2); the source only gives https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D.",
+      "subjects": [
+        {
+          "part": "control-board",
+          "usage": "A34"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-2efdface5712",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No Digi-Key part number for A35 (U3); the source only gives https://www.pololu.com/product/2855.",
+      "subjects": [
+        {
+          "part": "control-board",
+          "usage": "A35"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "kicad-bom",
+            "row": 36
+          }
+        ]
+      }
+    }
+  ]
+}

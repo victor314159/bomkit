@@ -1,0 +1,73 @@
+{
+  "$schema": "../../../generated/schema/import-config.schema.json",
+  "kind": "importConfig",
+  "configVersion": "0.1",
+  "name": "planktoscope-bom",
+  "version": "1",
+  "sources": {
+    "bom": {
+      "uri": "https://code.curious.bio/curious.bio/planktoscope/src/commit/cd7777708531889f8f3cbe368a70baa97c6959f2/hardware/bom.csv"
+    }
+  },
+  "document": {
+    "id": "urn:example:bom:planktoscope-imported",
+    "name": "PlanktoScope",
+    "owner": "planktoscope",
+    "products": ["planktoscope"],
+    "organizations": {
+      "planktoscope": {
+        "name": "PlanktoScope project",
+        "aliases": ["planktoscope"]
+      }
+    },
+    "parts": {
+      "planktoscope": { "kind": "custom", "name": "PlanktoScope" }
+    }
+  },
+  "tables": [
+    {
+      "columns": {
+        "line": "#",
+        "name": "Part/BOM Name",
+        "qty": "BOM Qty",
+        "label": "Designators",
+        "mfr": "Manufacturer",
+        "mpn": "MPN"
+      },
+      "emit": [
+        {
+          "part": {
+            "id": "$id($lowercase(mfr and mpn ? mfr & ' ' & mpn : name))",
+            "kind": "'standard'",
+            "name": "name",
+            "manufacturerParts": "mfr and mpn ? [{ 'manufacturer': $org(mfr), 'mpn': mpn }]"
+          },
+          "usage": {
+            "parent": "'planktoscope'",
+            "id": "line",
+            "quantity": { "value": "$num(qty)" },
+            "designators": "$designators(label, 'findNumber')"
+          },
+          "rules": [
+            {
+              "when": "mfr in ['planktoscope', 'PontonZ']",
+              "part": {
+                "kind": "'custom'",
+                "identifiers": "[{ 'issuer': $org(mfr), 'value': mpn ? mpn : name }]",
+                "manufacturerParts": "[]"
+              }
+            },
+            {
+              "when": "$not($exists(mpn)) and $not(mfr in ['planktoscope', 'PontonZ'])",
+              "issue": {
+                "severity": "warning",
+                "category": "missing",
+                "text": "'No manufacturer part number for \"' & name & '\": it cannot be bought as described.'"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

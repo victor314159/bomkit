@@ -1,0 +1,1520 @@
+{
+  "kind": "bom",
+  "specVersion": "0.1",
+  "id": "urn:example:bom:planktoscope-imported",
+  "name": "PlanktoScope",
+  "owner": "planktoscope",
+  "products": [
+    "planktoscope"
+  ],
+  "parts": {
+    "adafruit-industries-754": {
+      "kind": "standard",
+      "name": "LED - Adafruit (754)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "adafruit-industries",
+          "mpn": "754"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 24
+          }
+        ]
+      }
+    },
+    "bafasa-562i3": {
+      "kind": "standard",
+      "name": "Square Nuts M3X5.5X1.8 INOX A2 DIN 562",
+      "manufacturerParts": [
+        {
+          "manufacturer": "bafasa",
+          "mpn": "562I3"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 34
+          }
+        ]
+      }
+    },
+    "bafasa-bhcei03012": {
+      "kind": "standard",
+      "name": "M3X12 INOX A2 BHC BASE ISO 7380-2",
+      "manufacturerParts": [
+        {
+          "manufacturer": "bafasa",
+          "mpn": "BHCEI03012"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 9
+          }
+        ]
+      }
+    },
+    "bafasa-chi2.505": {
+      "kind": "standard",
+      "name": "M2.5X5 INOX A2 CHC DIN 912",
+      "manufacturerParts": [
+        {
+          "manufacturer": "bafasa",
+          "mpn": "CHI2.505"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 7
+          }
+        ]
+      }
+    },
+    "bafasa-chi2.510": {
+      "kind": "standard",
+      "name": "M2.5X10 INOX A2 CHC DIN 912",
+      "manufacturerParts": [
+        {
+          "manufacturer": "bafasa",
+          "mpn": "CHI2.510"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 8
+          }
+        ]
+      }
+    },
+    "bitefu-bitefu006": {
+      "kind": "standard",
+      "name": "Falcon tube 50ml",
+      "manufacturerParts": [
+        {
+          "manufacturer": "bitefu",
+          "mpn": "bitefu006"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 28
+          }
+        ]
+      }
+    },
+    "cm-scientific-3530-050": {
+      "kind": "standard",
+      "name": "Hollow Rectangular Capillary 0.30 x 3.00mm ID",
+      "manufacturerParts": [
+        {
+          "manufacturer": "cm-scientific",
+          "mpn": "3530-050"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 3
+          }
+        ]
+      }
+    },
+    "darwin-microfluidics-cil-p-850": {
+      "kind": "standard",
+      "name": "Barbed to Male Luer Adapter 1/16\"",
+      "manufacturerParts": [
+        {
+          "manufacturer": "darwin-microfluidics",
+          "mpn": "CIL-P-850"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 12
+          }
+        ]
+      }
+    },
+    "darwin-microfluidics-cil-p-854": {
+      "kind": "standard",
+      "name": "Barbed to Female Luer Adapter 1/16\"",
+      "manufacturerParts": [
+        {
+          "manufacturer": "darwin-microfluidics",
+          "mpn": "CIL-P-854"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 11
+          }
+        ]
+      }
+    },
+    "darwin-microfluidics-co-07944-16": {
+      "kind": "standard",
+      "name": "BD Biocoat Luer-Lock Disposable Syringes - 20 mL",
+      "manufacturerParts": [
+        {
+          "manufacturer": "darwin-microfluidics",
+          "mpn": "CO-07944-16"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 29
+          }
+        ]
+      }
+    },
+    "fascomp-fm2101-2545-ss": {
+      "kind": "standard",
+      "name": "Standoff M2.5 x 0.45 - 6mm (FM2101-2545-SS)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "fascomp",
+          "mpn": "FM2101-2545-SS"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 4
+          }
+        ]
+      }
+    },
+    "fascomp-fm2110-2545-ss": {
+      "kind": "standard",
+      "name": "Standoff M2.5 x 0.45 - 15mm (FM2110-2545-SS) (FM2110-2545-SS)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "fascomp",
+          "mpn": "FM2110-2545-SS"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 5
+          }
+        ]
+      }
+    },
+    "fascomp-fm2111-2545-ss": {
+      "kind": "standard",
+      "name": "Standoff M2.5 x 0.45 - 16mm (FM2111-2545-SS) (FM2111-2545-SS)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "fascomp",
+          "mpn": "FM2111-2545-SS"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 6
+          }
+        ]
+      }
+    },
+    "first4magnets-f641-25": {
+      "kind": "standard",
+      "name": "Neodyme Circular Magnet 5mm x5mm",
+      "manufacturerParts": [
+        {
+          "manufacturer": "first4magnets",
+          "mpn": "F641-25"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 35
+          }
+        ]
+      }
+    },
+    "fulekan-lens_16mm_5mp_1-2.5": {
+      "kind": "standard",
+      "name": "M12 LENS 16MM 5MP 1/2.5\"",
+      "manufacturerParts": [
+        {
+          "manufacturer": "fulekan",
+          "mpn": "Lens_16MM_5MP_1/2.5"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 23
+          }
+        ]
+      }
+    },
+    "fulekan-lens_25mm_5mp_1-2": {
+      "kind": "standard",
+      "name": "M12 LENS 25MM 5MP 1/2\"",
+      "manufacturerParts": [
+        {
+          "manufacturer": "fulekan",
+          "mpn": "Lens_25MM_5MP_1/2"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 21
+          }
+        ]
+      }
+    },
+    "kamoer-kas-b12-sf": {
+      "kind": "standard",
+      "name": "Kamoer  Peristalic pump KAS B12 SF - ID 1.5 OD 3.5",
+      "manufacturerParts": [
+        {
+          "manufacturer": "kamoer",
+          "mpn": "KAS B12 SF"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 16
+          }
+        ]
+      }
+    },
+    "led-to-hat-wires": {
+      "kind": "custom",
+      "name": "LED to HAT wires",
+      "identifiers": [
+        {
+          "issuer": "planktoscope",
+          "value": "LED to HAT wires"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 26
+          }
+        ]
+      }
+    },
+    "m12-lens-locking-ring": {
+      "kind": "standard",
+      "name": "M12 Lens Locking Ring",
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 22
+          }
+        ]
+      }
+    },
+    "mini-bubbling-usb": {
+      "kind": "standard",
+      "name": "Mini Bubbling USB",
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 15
+          }
+        ]
+      }
+    },
+    "motor-kindom-store-sus303": {
+      "kind": "standard",
+      "name": "Reinforced Linear Stepper Motor",
+      "manufacturerParts": [
+        {
+          "manufacturer": "motor-kindom-store",
+          "mpn": "SUS303"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 18
+          }
+        ]
+      }
+    },
+    "planktoscope": {
+      "kind": "custom",
+      "name": "PlanktoScope",
+      "usages": [
+        {
+          "id": "1",
+          "part": "tectake-402870",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "part": "cm-scientific-3530-050",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "3",
+          "part": "fascomp-fm2101-2545-ss",
+          "quantity": {
+            "value": 4
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "A1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "4",
+          "part": "fascomp-fm2110-2545-ss",
+          "quantity": {
+            "value": 4
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "A2"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "5",
+          "part": "fascomp-fm2111-2545-ss",
+          "quantity": {
+            "value": 4
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "A3"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "6",
+          "part": "bafasa-chi2.505",
+          "quantity": {
+            "value": 8
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "A4"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "part": "bafasa-chi2.510",
+          "quantity": {
+            "value": 7
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "A5"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "part": "bafasa-bhcei03012",
+          "quantity": {
+            "value": 32
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "A6"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "part": "silicone-adhesive-pads",
+          "quantity": {
+            "value": 4
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "A7"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "10",
+          "part": "darwin-microfluidics-cil-p-854",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "D1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "11",
+          "part": "darwin-microfluidics-cil-p-850",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "D3"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "12",
+          "part": "tube-n-3",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "D4"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "13",
+          "part": "tube-n-4",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "D5"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "14",
+          "part": "mini-bubbling-usb",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "E1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "15",
+          "part": "kamoer-kas-b12-sf",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "F1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "16",
+          "part": "planktoscope-flowcell-300um",
+          "quantity": {
+            "value": 3
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "F4"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 17
+              }
+            ]
+          }
+        },
+        {
+          "id": "17",
+          "part": "motor-kindom-store-sus303",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "G1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 18
+              }
+            ]
+          }
+        },
+        {
+          "id": "18",
+          "part": "seeed-studio-110991327",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "H1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 19
+              }
+            ]
+          }
+        },
+        {
+          "id": "19",
+          "part": "planktoscope-custom-hat",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "I1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 20
+              }
+            ]
+          }
+        },
+        {
+          "id": "20",
+          "part": "fulekan-lens_25mm_5mp_1-2",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "J1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 21
+              }
+            ]
+          }
+        },
+        {
+          "id": "21",
+          "part": "m12-lens-locking-ring",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "J2"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 22
+              }
+            ]
+          }
+        },
+        {
+          "id": "22",
+          "part": "fulekan-lens_16mm_5mp_1-2.5",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "J3"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 23
+              }
+            ]
+          }
+        },
+        {
+          "id": "23",
+          "part": "adafruit-industries-754",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "J4"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "24",
+          "part": "sandisk-sdsqxa1-128g-gn6ma",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "K1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 25
+              }
+            ]
+          }
+        },
+        {
+          "id": "25",
+          "part": "led-to-hat-wires",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "K2"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 26
+              }
+            ]
+          }
+        },
+        {
+          "id": "26",
+          "part": "switchcraft-721afms",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "K3"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 27
+              }
+            ]
+          }
+        },
+        {
+          "id": "27",
+          "part": "bitefu-bitefu006",
+          "quantity": {
+            "value": 2
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "M1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 28
+              }
+            ]
+          }
+        },
+        {
+          "id": "28",
+          "part": "darwin-microfluidics-co-07944-16",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "M2"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 29
+              }
+            ]
+          }
+        },
+        {
+          "id": "29",
+          "part": "structure-v2.5",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "S"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 30
+              }
+            ]
+          }
+        },
+        {
+          "id": "30",
+          "part": "raspberry-pi-rpi4-modbp-4gb",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "X1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 31
+              }
+            ]
+          }
+        },
+        {
+          "id": "31",
+          "part": "raspberry-pi-sc0261",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "X4"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 32
+              }
+            ]
+          }
+        },
+        {
+          "id": "32",
+          "part": "stontronics-sw3126b",
+          "quantity": {
+            "value": 1
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "X5"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 33
+              }
+            ]
+          }
+        },
+        {
+          "id": "33",
+          "part": "bafasa-562i3",
+          "quantity": {
+            "value": 32
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "XXX"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "34",
+          "part": "first4magnets-f641-25",
+          "quantity": {
+            "value": 30
+          },
+          "designators": [
+            {
+              "scheme": "findNumber",
+              "values": [
+                "XXX1"
+              ]
+            }
+          ],
+          "provenance": {
+            "locations": [
+              {
+                "document": "bom",
+                "row": 35
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "planktoscope-custom-hat": {
+      "kind": "custom",
+      "name": "Custom HAT",
+      "identifiers": [
+        {
+          "issuer": "planktoscope",
+          "value": "Custom HAT"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 20
+          }
+        ]
+      }
+    },
+    "planktoscope-flowcell-300um": {
+      "kind": "custom",
+      "name": "FlowCell 300um",
+      "identifiers": [
+        {
+          "issuer": "planktoscope",
+          "value": "FlowCell 300um"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 17
+          }
+        ]
+      }
+    },
+    "raspberry-pi-rpi4-modbp-4gb": {
+      "kind": "standard",
+      "name": "RASPBERRY PI 4 MODEL B (RPI4-MODBP-4GB)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "raspberry-pi",
+          "mpn": "RPI4-MODBP-4GB"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 31
+          }
+        ]
+      }
+    },
+    "raspberry-pi-sc0261": {
+      "kind": "standard",
+      "name": "Raspberry Pi HQ Camera (SC0261)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "raspberry-pi",
+          "mpn": "SC0261"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 32
+          }
+        ]
+      }
+    },
+    "sandisk-sdsqxa1-128g-gn6ma": {
+      "kind": "standard",
+      "name": "Sd Card 128Gb (SDSQXA1-128G-GN6MA)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "sandisk",
+          "mpn": "SDSQXA1-128G-GN6MA"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 25
+          }
+        ]
+      }
+    },
+    "seeed-studio-110991327": {
+      "kind": "standard",
+      "name": "Heat Sink Kit for Raspberry Pi 4B (110991327)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "seeed-studio",
+          "mpn": "110991327"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 19
+          }
+        ]
+      }
+    },
+    "silicone-adhesive-pads": {
+      "kind": "standard",
+      "name": "Silicone adhesive pads",
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 10
+          }
+        ]
+      }
+    },
+    "stontronics-sw3126b": {
+      "kind": "standard",
+      "name": "AC ADAPTOR 12V 4A 2.1MM (SW3126B)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "stontronics",
+          "mpn": "SW3126B"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 33
+          }
+        ]
+      }
+    },
+    "structure-v2.5": {
+      "kind": "custom",
+      "name": "Structure V2.5",
+      "identifiers": [
+        {
+          "issuer": "pontonz",
+          "value": "Structure V2.5"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 30
+          }
+        ]
+      }
+    },
+    "switchcraft-721afms": {
+      "kind": "standard",
+      "name": "DC Power Jack Shield Front Pnl Mnt 2.1mm (721AFMS)",
+      "manufacturerParts": [
+        {
+          "manufacturer": "switchcraft",
+          "mpn": "721AFMS"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 27
+          }
+        ]
+      }
+    },
+    "tectake-402870": {
+      "kind": "standard",
+      "name": "Case Tectake Type 2",
+      "manufacturerParts": [
+        {
+          "manufacturer": "tectake",
+          "mpn": "402870"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 2
+          }
+        ]
+      }
+    },
+    "tube-n-3": {
+      "kind": "custom",
+      "name": "Tube n°3",
+      "identifiers": [
+        {
+          "issuer": "pontonz",
+          "value": "Tube n°3"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 13
+          }
+        ]
+      }
+    },
+    "tube-n-4": {
+      "kind": "custom",
+      "name": "Tube n°4",
+      "identifiers": [
+        {
+          "issuer": "pontonz",
+          "value": "Tube n°4"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 14
+          }
+        ]
+      }
+    }
+  },
+  "documents": {
+    "bom": {
+      "name": "bom.csv",
+      "type": "other",
+      "mediaType": "text/csv",
+      "uri": "https://code.curious.bio/curious.bio/planktoscope/src/commit/cd7777708531889f8f3cbe368a70baa97c6959f2/hardware/bom.csv",
+      "sha256": "0e9906568fbcea7cceffb1c2db5debafd803b4e4c8e002ca93ec6b96b64a733f",
+      "size": 3140
+    }
+  },
+  "organizations": {
+    "adafruit-industries": {
+      "name": "Adafruit Industries"
+    },
+    "bafasa": {
+      "name": "BafaSa"
+    },
+    "bitefu": {
+      "name": "BITEFU"
+    },
+    "cm-scientific": {
+      "name": "CM Scientific"
+    },
+    "darwin-microfluidics": {
+      "name": "Darwin Microfluidics"
+    },
+    "fascomp": {
+      "name": "Fascomp"
+    },
+    "first4magnets": {
+      "name": "First4magnets"
+    },
+    "fulekan": {
+      "name": "Fulekan"
+    },
+    "kamoer": {
+      "name": "Kamoer"
+    },
+    "motor-kindom-store": {
+      "name": "Motor Kindom Store"
+    },
+    "planktoscope": {
+      "name": "PlanktoScope project",
+      "aliases": [
+        "planktoscope"
+      ]
+    },
+    "pontonz": {
+      "name": "PontonZ"
+    },
+    "raspberry-pi": {
+      "name": "Raspberry Pi"
+    },
+    "sandisk": {
+      "name": "SanDisk"
+    },
+    "seeed-studio": {
+      "name": "Seeed Studio"
+    },
+    "stontronics": {
+      "name": "Stontronics"
+    },
+    "switchcraft": {
+      "name": "Switchcraft"
+    },
+    "tectake": {
+      "name": "Tectake"
+    }
+  },
+  "generator": {
+    "tool": "bomkit-import",
+    "version": "0.1.0",
+    "config": {
+      "name": "planktoscope-bom",
+      "version": "1"
+    },
+    "sources": [
+      "bom"
+    ]
+  },
+  "issues": [
+    {
+      "id": "import-7bbd0c1c611a",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No manufacturer part number for \"Silicone adhesive pads\": it cannot be bought as described.",
+      "subjects": [
+        {
+          "part": "planktoscope",
+          "usage": "9"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-cf4c299480ea",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No manufacturer part number for \"Mini Bubbling USB\": it cannot be bought as described.",
+      "subjects": [
+        {
+          "part": "planktoscope",
+          "usage": "14"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-859c1756e458",
+      "severity": "warning",
+      "category": "missing",
+      "text": "No manufacturer part number for \"M12 Lens Locking Ring\": it cannot be bought as described.",
+      "subjects": [
+        {
+          "part": "planktoscope",
+          "usage": "21"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "bom",
+            "row": 22
+          }
+        ]
+      }
+    }
+  ]
+}

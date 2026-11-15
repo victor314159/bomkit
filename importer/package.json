@@ -1,0 +1,12 @@
+{
+  "name": "bomkit-import",
+  "version": "0.1.0",
+  "description": "Configurable, deterministic importer from CSV and Excel tables to bomkit",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "jsonata": "2.2.2",
+    "read-excel-file": "9.3.17"
+  }
+}

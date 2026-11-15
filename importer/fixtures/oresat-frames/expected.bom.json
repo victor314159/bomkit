@@ -1,0 +1,1938 @@
+{
+  "kind": "bom",
+  "specVersion": "0.1",
+  "id": "urn:example:bom:oresat-frames-imported",
+  "name": "OreSat frame sets 1U, 1.5U, 2U, 3U",
+  "owner": "psas",
+  "products": [
+    "frames-1u",
+    "frames-1.5u",
+    "frames-2u",
+    "frames-3u"
+  ],
+  "parts": {
+    "+Xframe": {
+      "kind": "custom",
+      "name": "+X Card Wedge",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "+Xframe"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 6
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 11
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 13
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 13
+          }
+        ]
+      }
+    },
+    "+Xframecut": {
+      "kind": "custom",
+      "name": "+X Card Wedge Cut",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "+Xframecut"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 10
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 14
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 14
+          }
+        ]
+      }
+    },
+    "1.5U_Frame-+X-Frame": {
+      "kind": "custom",
+      "name": "1.5U +X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "1.5U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 3
+          }
+        ]
+      }
+    },
+    "1.5U_Frame--X-Frame": {
+      "kind": "custom",
+      "name": "1.5U -X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "1.5U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 4
+          }
+        ]
+      }
+    },
+    "1.5U_Frame-Y-Frame": {
+      "kind": "custom",
+      "name": "1.5U Y Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "1.5U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 2
+          }
+        ]
+      }
+    },
+    "1U_Frame-+X-Frame": {
+      "kind": "custom",
+      "name": "1U +X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "1U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 3
+          }
+        ]
+      }
+    },
+    "1U_Frame--X-Frame": {
+      "kind": "custom",
+      "name": "1U -X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "1U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 4
+          }
+        ]
+      }
+    },
+    "1U_Frame-Y-Frame": {
+      "kind": "custom",
+      "name": "1U Y Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "1U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 2
+          }
+        ]
+      }
+    },
+    "2U_Frame-+X-Frame": {
+      "kind": "custom",
+      "name": "2U +X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "2U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 2
+          }
+        ]
+      }
+    },
+    "2U_Frame--X-Frame": {
+      "kind": "custom",
+      "name": "2U -X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "2U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 3
+          }
+        ]
+      }
+    },
+    "2U_Frame-Y-Frame": {
+      "kind": "custom",
+      "name": "2U Y Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "2U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 4
+          }
+        ]
+      }
+    },
+    "3U_Frame-+X-Frame": {
+      "kind": "custom",
+      "name": "3U +X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "3U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 5
+          }
+        ]
+      }
+    },
+    "3U_Frame--X-Frame": {
+      "kind": "custom",
+      "name": "3U -X Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "3U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 6
+          }
+        ]
+      }
+    },
+    "3U_Frame-Y-Frame": {
+      "kind": "custom",
+      "name": "3U Y Frame",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "3U_Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 7
+          }
+        ]
+      }
+    },
+    "OreSat_CardWedge": {
+      "kind": "custom",
+      "name": "Full Length Card Wedge",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "OreSat_CardWedge"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 5
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 16
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 11
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 8
+          }
+        ]
+      }
+    },
+    "OreSat_CardWedgeTriangle": {
+      "kind": "custom",
+      "name": "Full Length Card Wedge Triangle",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "OreSat_CardWedgeTriangle"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 7
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 13
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 15
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 9
+          }
+        ]
+      }
+    },
+    "StarTrackerWedge": {
+      "kind": "custom",
+      "name": "Star Tracker Wedge Triangle",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "StarTrackerWedge"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 8
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 15
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 17
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 16
+          }
+        ]
+      }
+    },
+    "WithCutout": {
+      "kind": "custom",
+      "name": "Y Card Wedge Cut",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "WithCutout"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 17
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 12
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 10
+          }
+        ]
+      }
+    },
+    "frames-1.5u": {
+      "kind": "custom",
+      "name": "OreSat 1.5U frame set",
+      "usages": [
+        {
+          "id": "Y-Frame",
+          "part": "1.5U_Frame-Y-Frame",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "+X-Frame",
+          "part": "1.5U_Frame-+X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "-X-Frame",
+          "part": "1.5U_Frame--X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "92703A159",
+          "part": "mcm-92703A159",
+          "quantity": {
+            "value": 10
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "92290A060",
+          "part": "mcm-92290A060",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "91630A221",
+          "part": "mcm-91630A221",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "93600A061",
+          "part": "mcm-93600A061",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "90910A920",
+          "part": "mcm-90910A920",
+          "quantity": {
+            "value": 69
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "+Xframecut",
+          "part": "+Xframecut",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "+Xframe",
+          "part": "+Xframe",
+          "quantity": {
+            "value": 5
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "startrackerwedge",
+          "part": "startrackerwedge",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedgeTriangle",
+          "part": "OreSat_CardWedgeTriangle",
+          "quantity": {
+            "value": 19
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "short",
+          "part": "short",
+          "quantity": {
+            "value": 6
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "StarTrackerWedge",
+          "part": "StarTrackerWedge",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedge",
+          "part": "OreSat_CardWedge",
+          "quantity": {
+            "value": 14
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "WithCutout",
+          "part": "WithCutout",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 17
+              }
+            ]
+          }
+        },
+        {
+          "id": "spring",
+          "part": "separation-spring",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1.5U",
+                "row": 18
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "frames-1u": {
+      "kind": "custom",
+      "name": "OreSat 1U frame set",
+      "usages": [
+        {
+          "id": "Y-Frame",
+          "part": "1U_Frame-Y-Frame",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "+X-Frame",
+          "part": "1U_Frame-+X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "-X-Frame",
+          "part": "1U_Frame--X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedge",
+          "part": "OreSat_CardWedge",
+          "quantity": {
+            "value": 14
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "+Xframe",
+          "part": "+Xframe",
+          "quantity": {
+            "value": 5
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedgeTriangle",
+          "part": "OreSat_CardWedgeTriangle",
+          "quantity": {
+            "value": 19
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "StarTrackerWedge",
+          "part": "StarTrackerWedge",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "startrackerwedge",
+          "part": "startrackerwedge",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "92095A451",
+          "part": "mcm-92095A451",
+          "quantity": {
+            "value": 63
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "93600A061",
+          "part": "mcm-93600A061",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "92290A060",
+          "part": "mcm-92290A060",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "91630A221",
+          "part": "mcm-91630A221",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "spring",
+          "part": "separation-spring",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "1U",
+                "row": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "frames-2u": {
+      "kind": "custom",
+      "name": "OreSat 2U frame set",
+      "usages": [
+        {
+          "id": "+X-Frame",
+          "part": "2U_Frame-+X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "-X-Frame",
+          "part": "2U_Frame--X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "Y-Frame",
+          "part": "2U_Frame-Y-Frame",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "90910A920",
+          "part": "mcm-90910A920",
+          "quantity": {
+            "value": 111
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "93600A061",
+          "part": "mcm-93600A061",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "92290A060",
+          "part": "mcm-92290A060",
+          "quantity": {
+            "value": 16
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "spring",
+          "part": "separation-spring",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "92703A159",
+          "part": "mcm-92703A159",
+          "quantity": {
+            "value": 10
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "91630A221",
+          "part": "mcm-91630A221",
+          "quantity": {
+            "value": 16
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedge",
+          "part": "OreSat_CardWedge",
+          "quantity": {
+            "value": 24
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "WithCutout",
+          "part": "WithCutout",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "+Xframe",
+          "part": "+Xframe",
+          "quantity": {
+            "value": 9
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "+Xframecut",
+          "part": "+Xframecut",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedgeTriangle",
+          "part": "OreSat_CardWedgeTriangle",
+          "quantity": {
+            "value": 32
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "short",
+          "part": "short",
+          "quantity": {
+            "value": 6
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "StarTrackerWedge",
+          "part": "StarTrackerWedge",
+          "quantity": {
+            "value": 3
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 17
+              }
+            ]
+          }
+        },
+        {
+          "id": "startrackerwedge",
+          "part": "startrackerwedge",
+          "quantity": {
+            "value": 3
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "2U",
+                "row": 18
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "frames-3u": {
+      "kind": "custom",
+      "name": "OreSat 3U frame set",
+      "usages": [
+        {
+          "id": "spring",
+          "part": "separation-spring",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "93600A061",
+          "part": "mcm-93600A061",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "92290A060",
+          "part": "mcm-92290A060",
+          "quantity": {
+            "value": 24
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "+X-Frame",
+          "part": "3U_Frame-+X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "-X-Frame",
+          "part": "3U_Frame--X-Frame",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "Y-Frame",
+          "part": "3U_Frame-Y-Frame",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedge",
+          "part": "OreSat_CardWedge",
+          "quantity": {
+            "value": 56
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "OreSat_CardWedgeTriangle",
+          "part": "OreSat_CardWedgeTriangle",
+          "quantity": {
+            "value": 63
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "WithCutout",
+          "part": "WithCutout",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "short",
+          "part": "short",
+          "quantity": {
+            "value": 12
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "90910A920",
+          "part": "mcm-90910A920",
+          "quantity": {
+            "value": 219
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "+Xframe",
+          "part": "+Xframe",
+          "quantity": {
+            "value": 7
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "+Xframecut",
+          "part": "+Xframecut",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "startrackerwedge",
+          "part": "startrackerwedge",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "StarTrackerWedge",
+          "part": "StarTrackerWedge",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "92703A159",
+          "part": "mcm-92703A159",
+          "quantity": {
+            "value": 10
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "frames-bom",
+                "sheet": "3U",
+                "row": 17
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "mcm-90910A920": {
+      "kind": "standard",
+      "name": "M2 x 0.4 x 4 Button Head Screw",
+      "supplierParts": [
+        {
+          "supplier": "mcmaster",
+          "sku": "90910A920"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 9
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 5
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 12
+          }
+        ]
+      }
+    },
+    "mcm-91630A221": {
+      "kind": "standard",
+      "name": "M2.5 x 0.45 x 2.5 SCREW-LOCK HELICAL TANGLESS",
+      "supplierParts": [
+        {
+          "supplier": "mcmaster",
+          "sku": "91630A221"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 13
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 7
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 10
+          }
+        ]
+      }
+    },
+    "mcm-92095A451": {
+      "kind": "standard",
+      "name": "92095A451",
+      "supplierParts": [
+        {
+          "supplier": "mcmaster",
+          "sku": "92095A451"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 10
+          }
+        ]
+      }
+    },
+    "mcm-92290A060": {
+      "kind": "standard",
+      "name": "M2.5 x 0.45 x 10 Socket Head Screw",
+      "supplierParts": [
+        {
+          "supplier": "mcmaster",
+          "sku": "92290A060"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 12
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 6
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 7
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 4
+          }
+        ]
+      }
+    },
+    "mcm-92703A159": {
+      "kind": "standard",
+      "name": "M2.5 x 0.45 x 8 TORX FLAT HEAD SCREW",
+      "supplierParts": [
+        {
+          "supplier": "mcmaster",
+          "sku": "92703A159"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 5
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 9
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 17
+          }
+        ]
+      }
+    },
+    "mcm-93600A061": {
+      "kind": "standard",
+      "name": "M1.5 DIA x 6 DOWEL PIN",
+      "supplierParts": [
+        {
+          "supplier": "mcmaster",
+          "sku": "93600A061"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 11
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 8
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 6
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 3
+          }
+        ]
+      }
+    },
+    "separation-spring": {
+      "kind": "standard",
+      "name": "CubeSat separation spring",
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 14
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 18
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 8
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 2
+          }
+        ]
+      }
+    },
+    "short": {
+      "kind": "custom",
+      "name": "Short Triangle",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "short"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 14
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 16
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 11
+          }
+        ]
+      }
+    },
+    "startrackerwedge": {
+      "kind": "custom",
+      "name": "+X Startracker Card Wedge",
+      "identifiers": [
+        {
+          "issuer": "psas",
+          "value": "startrackerwedge"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 9
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 12
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 18
+          },
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 15
+          }
+        ]
+      }
+    }
+  },
+  "documents": {
+    "frames-bom": {
+      "name": "framesBOM.xlsx",
+      "type": "other",
+      "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "uri": "https://github.com/oresat/oresat-structure/blob/c08159efe210101d7ea1123d4e0838270f017f5c/Frames/build/framesBOM.xlsx",
+      "sha256": "56e3be262b3d18892aa80873d5e82de5e66c6d538f502b32b8c9dd08516b96b0",
+      "size": 19273
+    }
+  },
+  "organizations": {
+    "mcmaster": {
+      "name": "McMaster-Carr",
+      "website": "https://www.mcmaster.com"
+    },
+    "psas": {
+      "name": "Portland State Aerospace Society",
+      "aliases": [
+        "PSAS",
+        "OreSat"
+      ]
+    }
+  },
+  "generator": {
+    "tool": "bomkit-import",
+    "version": "0.1.0",
+    "config": {
+      "name": "oresat-frames-bom",
+      "version": "1"
+    },
+    "sources": [
+      "frames-bom"
+    ]
+  },
+  "issues": [
+    {
+      "id": "import-8813ae437607",
+      "severity": "warning",
+      "category": "missing",
+      "text": "Description cell is empty for 92095A451.",
+      "subjects": [
+        {
+          "part": "frames-1u",
+          "usage": "92095A451"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-8f578f18e45d",
+      "severity": "warning",
+      "category": "ambiguous",
+      "text": "Source row: \"84985A46 - CPSLO cubesat.org Springs (Using Slotted Long-Nose Spring Plunger 8-36 in CAD)\". McMaster 84985A46 is only the CAD stand-in; do not buy it as the flight part.",
+      "subjects": [
+        {
+          "part": "frames-1u",
+          "usage": "spring"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1U",
+            "row": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-46b9a6056d7c",
+      "severity": "info",
+      "category": "assumption",
+      "text": "Three rows are numbered 1.5U_Frame without a description. By its place among them and its quantity, this one is taken as the Y Frame, as on the other sheets; to confirm.",
+      "subjects": [
+        {
+          "part": "frames-1.5u",
+          "usage": "Y-Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-23b73bc798c6",
+      "severity": "info",
+      "category": "assumption",
+      "text": "Three rows are numbered 1.5U_Frame without a description. By its place among them and its quantity, this one is taken as the +X Frame, as on the other sheets; to confirm.",
+      "subjects": [
+        {
+          "part": "frames-1.5u",
+          "usage": "+X-Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-994984d994f0",
+      "severity": "info",
+      "category": "assumption",
+      "text": "Three rows are numbered 1.5U_Frame without a description. By its place among them and its quantity, this one is taken as the -X Frame, as on the other sheets; to confirm.",
+      "subjects": [
+        {
+          "part": "frames-1.5u",
+          "usage": "-X-Frame"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-9cf1eaaa0c14",
+      "severity": "warning",
+      "category": "ambiguous",
+      "text": "Source row: \"84985A46 - CPSLO cubesat.org Springs (Using Slotted Long-Nose Spring Plunger 8-36 in CAD)\". McMaster 84985A46 is only the CAD stand-in; do not buy it as the flight part.",
+      "subjects": [
+        {
+          "part": "frames-1.5u",
+          "usage": "spring"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "1.5U",
+            "row": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-aa1984ecebdb",
+      "severity": "warning",
+      "category": "ambiguous",
+      "text": "Source row: \"84985A46 - CPSLO cubesat.org Springs (Using Slotted Long-Nose Spring Plunger 8-36 in CAD)\". McMaster 84985A46 is only the CAD stand-in; do not buy it as the flight part.",
+      "subjects": [
+        {
+          "part": "frames-2u",
+          "usage": "spring"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "2U",
+            "row": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-a31a9f9ff16b",
+      "severity": "warning",
+      "category": "ambiguous",
+      "text": "Source row: \"84985A46 - CPSLO cubesat.org Springs (Using Slotted Long-Nose Spring Plunger 8-36 in CAD)\". McMaster 84985A46 is only the CAD stand-in; do not buy it as the flight part.",
+      "subjects": [
+        {
+          "part": "frames-3u",
+          "usage": "spring"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "frames-bom",
+            "sheet": "3U",
+            "row": 2
+          }
+        ]
+      }
+    }
+  ]
+}

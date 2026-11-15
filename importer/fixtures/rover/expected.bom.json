@@ -1,0 +1,2937 @@
+{
+  "kind": "bom",
+  "specVersion": "0.1",
+  "id": "urn:example:bom:jpl-osr-imported",
+  "name": "JPL Open Source Rover",
+  "owner": "jpl",
+  "products": [
+    "rover"
+  ],
+  "parts": {
+    "body": {
+      "kind": "custom",
+      "name": "Body assembly",
+      "usages": [
+        {
+          "id": "1118-0024-0120",
+          "part": "gb-1118-0024-0120",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 29
+              }
+            ]
+          }
+        },
+        {
+          "id": "1120-0002-0072",
+          "part": "gb-1120-0002-0072",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 30
+              }
+            ]
+          }
+        },
+        {
+          "id": "1604-0043-0032",
+          "part": "gb-1604-0043-0032",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 31
+              }
+            ]
+          }
+        },
+        {
+          "id": "1506-0032-0006",
+          "part": "gb-1506-0032-0006",
+          "quantity": {
+            "value": 3
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 32
+              }
+            ]
+          }
+        },
+        {
+          "id": "1106-0029-0232",
+          "part": "gb-1106-0029-0232",
+          "quantity": {
+            "value": 7
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 33
+              }
+            ]
+          }
+        },
+        {
+          "id": "1106-0041-0328",
+          "part": "gb-1106-0041-0328",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "1106-0012-0096",
+          "part": "gb-1106-0012-0096",
+          "quantity": {
+            "value": 8
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 35
+              }
+            ]
+          }
+        },
+        {
+          "id": "1101-0041-0328",
+          "part": "gb-1101-0041-0328",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 36
+              }
+            ]
+          }
+        },
+        {
+          "id": "1102-0007-0056",
+          "part": "gb-1102-0007-0056",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 37
+              }
+            ]
+          }
+        },
+        {
+          "id": "1205-0001-0004",
+          "part": "gb-1205-0001-0004",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 38
+              }
+            ]
+          }
+        },
+        {
+          "id": "1203-0001-0001",
+          "part": "gb-1203-0001-0001",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 39
+              }
+            ]
+          }
+        },
+        {
+          "id": "2808-0004-0050",
+          "part": "gb-2808-0004-0050",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 40
+              }
+            ]
+          }
+        },
+        {
+          "id": "2913-0004-0241",
+          "part": "gb-2913-0004-0241",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 41
+              }
+            ]
+          }
+        },
+        {
+          "id": "1608-0001-0001",
+          "part": "gb-1608-0001-0001",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 42
+              }
+            ]
+          }
+        },
+        {
+          "id": "2902-0003-0001",
+          "part": "gb-2902-0003-0001",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 43
+              }
+            ]
+          }
+        },
+        {
+          "id": "1501-0006-0080",
+          "part": "gb-1501-0006-0080",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 44
+              }
+            ]
+          }
+        },
+        {
+          "id": "1501-0006-0220",
+          "part": "gb-1501-0006-0220",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 45
+              }
+            ]
+          }
+        },
+        {
+          "id": "1500-0010-0006",
+          "part": "gb-1500-0010-0006",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 46
+              }
+            ]
+          }
+        },
+        {
+          "id": "1116-0024-0040",
+          "part": "gb-1116-0024-0040",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 47
+              }
+            ]
+          }
+        },
+        {
+          "id": "1102-0002-0016",
+          "part": "gb-1102-0002-0016",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 48
+              }
+            ]
+          }
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 29
+          },
+          {
+            "document": "parts-list",
+            "row": 30
+          },
+          {
+            "document": "parts-list",
+            "row": 31
+          },
+          {
+            "document": "parts-list",
+            "row": 32
+          },
+          {
+            "document": "parts-list",
+            "row": 33
+          },
+          {
+            "document": "parts-list",
+            "row": 34
+          },
+          {
+            "document": "parts-list",
+            "row": 35
+          },
+          {
+            "document": "parts-list",
+            "row": 36
+          },
+          {
+            "document": "parts-list",
+            "row": 37
+          },
+          {
+            "document": "parts-list",
+            "row": 38
+          },
+          {
+            "document": "parts-list",
+            "row": 39
+          },
+          {
+            "document": "parts-list",
+            "row": 40
+          },
+          {
+            "document": "parts-list",
+            "row": 41
+          },
+          {
+            "document": "parts-list",
+            "row": 42
+          },
+          {
+            "document": "parts-list",
+            "row": 43
+          },
+          {
+            "document": "parts-list",
+            "row": 44
+          },
+          {
+            "document": "parts-list",
+            "row": 45
+          },
+          {
+            "document": "parts-list",
+            "row": 46
+          },
+          {
+            "document": "parts-list",
+            "row": 47
+          },
+          {
+            "document": "parts-list",
+            "row": 48
+          }
+        ]
+      }
+    },
+    "corner": {
+      "kind": "custom",
+      "name": "Corner assembly",
+      "usages": [
+        {
+          "id": "1109-0024-0144",
+          "part": "gb-1109-0024-0144",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "1121-0004-0120",
+          "part": "gb-1121-0004-0120",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 8
+              }
+            ]
+          }
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 7
+          },
+          {
+            "document": "parts-list",
+            "row": 8
+          }
+        ]
+      }
+    },
+    "drive-wheel": {
+      "kind": "custom",
+      "name": "Drive wheel assembly",
+      "usages": [
+        {
+          "id": "3616-0014-0144",
+          "part": "gb-3616-0014-0144",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "1401-0043-0036",
+          "part": "gb-1401-0043-0036",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "5203-2402-0027",
+          "part": "gb-5203-2402-0027",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "1310-0016-4008",
+          "part": "gb-1310-0016-4008",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "1120-0002-0072",
+          "part": "gb-1120-0002-0072",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 6
+              }
+            ]
+          }
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 2
+          },
+          {
+            "document": "parts-list",
+            "row": 3
+          },
+          {
+            "document": "parts-list",
+            "row": 4
+          },
+          {
+            "document": "parts-list",
+            "row": 5
+          },
+          {
+            "document": "parts-list",
+            "row": 6
+          }
+        ]
+      }
+    },
+    "gb-1101-0041-0328": {
+      "kind": "standard",
+      "name": "1101 Series U-Beam (41 Hole, 328mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1101-0041-0328"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 36
+          }
+        ]
+      }
+    },
+    "gb-1102-0002-0016": {
+      "kind": "standard",
+      "name": "1102 Series Flat Beam (2 Hole, 16mm Length) - 2 Pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1102-0002-0016"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 48
+          }
+        ]
+      }
+    },
+    "gb-1102-0003-0024": {
+      "kind": "standard",
+      "name": "1102 Series Flat Beam (3 Hole, 24mm Length) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1102-0003-0024"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 16
+          }
+        ]
+      }
+    },
+    "gb-1102-0007-0056": {
+      "kind": "standard",
+      "name": "1102 Series Flat Beam (7 Hole, 56mm Length) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1102-0007-0056"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 37
+          }
+        ]
+      }
+    },
+    "gb-1106-0012-0096": {
+      "kind": "standard",
+      "name": "1106 Series Square Beam (12 Hole, 96mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1106-0012-0096"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 35
+          }
+        ]
+      }
+    },
+    "gb-1106-0029-0232": {
+      "kind": "standard",
+      "name": "1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1106-0029-0232"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 33
+          }
+        ]
+      }
+    },
+    "gb-1106-0041-0328": {
+      "kind": "standard",
+      "name": "1106 Series Square Beam (41 Hole, 328mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1106-0041-0328"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 34
+          }
+        ]
+      }
+    },
+    "gb-1109-0024-0144": {
+      "kind": "standard",
+      "name": "1109 Series goRAIL (144mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1109-0024-0144"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 7
+          }
+        ]
+      }
+    },
+    "gb-1111-0001-0001": {
+      "kind": "standard",
+      "name": "1111 Series Angle Pattern Bracket (1-1) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1111-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 23
+          }
+        ]
+      }
+    },
+    "gb-1111-0003-0001": {
+      "kind": "standard",
+      "name": "1111 Series Angle Pattern Bracket (3-1) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1111-0003-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 20
+          }
+        ]
+      }
+    },
+    "gb-1116-0024-0040": {
+      "kind": "standard",
+      "name": "1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1116-0024-0040"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 19
+          },
+          {
+            "document": "parts-list",
+            "row": 47
+          }
+        ]
+      }
+    },
+    "gb-1118-0024-0096": {
+      "kind": "standard",
+      "name": "1118 Series Open goRAIL (96mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1118-0024-0096"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 21
+          }
+        ]
+      }
+    },
+    "gb-1118-0024-0120": {
+      "kind": "standard",
+      "name": "1118 Series Open goRAIL (120mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1118-0024-0120"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 29
+          }
+        ]
+      }
+    },
+    "gb-1118-0024-0288": {
+      "kind": "standard",
+      "name": "1118 Series Open goRAIL (288mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1118-0024-0288"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 22
+          }
+        ]
+      }
+    },
+    "gb-1120-0001-0048": {
+      "kind": "standard",
+      "name": "1120 Series U-Channel (1 Hole, 48mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1120-0001-0048"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 9
+          }
+        ]
+      }
+    },
+    "gb-1120-0002-0072": {
+      "kind": "standard",
+      "name": "1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1120-0002-0072"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 6
+          },
+          {
+            "document": "parts-list",
+            "row": 30
+          }
+        ]
+      }
+    },
+    "gb-1121-0004-0120": {
+      "kind": "standard",
+      "name": "1121 Series Low-Side U-Channel (4 Hole, 120mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1121-0004-0120"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 8
+          }
+        ]
+      }
+    },
+    "gb-1126-0001-0001": {
+      "kind": "standard",
+      "name": "1126 Series Steel Flat Bracket (1-1) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1126-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 18
+          }
+        ]
+      }
+    },
+    "gb-1137-0001-0001": {
+      "kind": "standard",
+      "name": "1137 Series Steel Flat Grid Bracket (1-1) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1137-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 24
+          }
+        ]
+      }
+    },
+    "gb-1203-0001-0001": {
+      "kind": "standard",
+      "name": "1203 Series Block Mount (1-1) - 4 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1203-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 39
+          }
+        ]
+      }
+    },
+    "gb-1205-0001-0004": {
+      "kind": "standard",
+      "name": "1205 Series Dual Block Mount (1-4) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1205-0001-0004"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 38
+          }
+        ]
+      }
+    },
+    "gb-1221-0032-0002": {
+      "kind": "standard",
+      "name": "1221 Series 2-Side, 2-Post Pattern Mount (32-2) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1221-0032-0002"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 17
+          }
+        ]
+      }
+    },
+    "gb-1309-0016-0008": {
+      "kind": "standard",
+      "name": "1309 Series Sonic Hub (8mm Bore) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1309-0016-0008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 12
+          }
+        ]
+      }
+    },
+    "gb-1310-0016-4008": {
+      "kind": "standard",
+      "name": "1310 Series Hyper Hub (8mm REX™ Bore)",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1310-0016-4008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 5
+          }
+        ]
+      }
+    },
+    "gb-1401-0043-0036": {
+      "kind": "standard",
+      "name": "1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 36mm Bore) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1401-0043-0036"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 3
+          }
+        ]
+      }
+    },
+    "gb-1500-0010-0006": {
+      "kind": "standard",
+      "name": "1500 Series Plastic Spacer (6mm ID x 8mm OD, 1mm Thickness) - 12 Pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1500-0010-0006"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 46
+          }
+        ]
+      }
+    },
+    "gb-1501-0006-0080": {
+      "kind": "standard",
+      "name": "1501 Series M4 x 0.7mm Standoff (6mm OD, 8mm Length) - 4 Pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1501-0006-0080"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 44
+          }
+        ]
+      }
+    },
+    "gb-1501-0006-0220": {
+      "kind": "standard",
+      "name": "1501 Series M4 x 0.7mm Standoff (6mm OD, 22mm Length) - 4 Pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1501-0006-0220"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 45
+          }
+        ]
+      }
+    },
+    "gb-1504-0032-0020": {
+      "kind": "standard",
+      "name": "1504 Series 32mm OD Pattern Spacer (2mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1504-0032-0020"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 14
+          }
+        ]
+      }
+    },
+    "gb-1506-0032-0006": {
+      "kind": "standard",
+      "name": "1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1506-0032-0006"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 32
+          }
+        ]
+      }
+    },
+    "gb-1522-0010-0040": {
+      "kind": "standard",
+      "name": "1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1522-0010-0040"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 27
+          }
+        ]
+      }
+    },
+    "gb-1522-0010-0060": {
+      "kind": "standard",
+      "name": "1522 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1522-0010-0060"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 26
+          }
+        ]
+      }
+    },
+    "gb-1604-0043-0032": {
+      "kind": "standard",
+      "name": "1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1604-0043-0032"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 31
+          }
+        ]
+      }
+    },
+    "gb-1608-0001-0001": {
+      "kind": "standard",
+      "name": "Idler Bearing-Hub (32mm OD, 16mm Height) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1608-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 42
+          }
+        ]
+      }
+    },
+    "gb-1611-0514-0008": {
+      "kind": "standard",
+      "name": "1611 Series Flanged Ball Bearing (8mm ID x 14mm OD, 5mm Thickness) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1611-0514-0008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 13
+          }
+        ]
+      }
+    },
+    "gb-1916-0014-0072": {
+      "kind": "standard",
+      "name": "Plastic Hub-Mount Control Arm (72mm Length) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "1916-0014-0072"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 25
+          }
+        ]
+      }
+    },
+    "gb-2000-0025-0002": {
+      "kind": "standard",
+      "name": "2000 Series Dual Mode Servo (25-2, Torque) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2000-0025-0002"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 11
+          }
+        ]
+      }
+    },
+    "gb-2100-0008-0050": {
+      "kind": "standard",
+      "name": "2100 Series Stainless Steel Round Shaft (8mm Diameter, 50mm Length)",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2100-0008-0050"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 15
+          }
+        ]
+      }
+    },
+    "gb-2800-0004-0008": {
+      "kind": "standard",
+      "name": "M4x8 Socket Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2800-0004-0008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 57
+          }
+        ]
+      }
+    },
+    "gb-2800-0004-0010": {
+      "kind": "standard",
+      "name": "M4x10 Socket Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2800-0004-0010"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 58
+          }
+        ]
+      }
+    },
+    "gb-2800-0004-0012": {
+      "kind": "standard",
+      "name": "M4x12 Socket Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2800-0004-0012"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 59
+          }
+        ]
+      }
+    },
+    "gb-2800-0004-0016": {
+      "kind": "standard",
+      "name": "M4x16 Socket Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2800-0004-0016"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 60
+          }
+        ]
+      }
+    },
+    "gb-2800-0004-0020": {
+      "kind": "standard",
+      "name": "M4x20 Socket Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2800-0004-0020"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 61
+          }
+        ]
+      }
+    },
+    "gb-2801-0004-0008": {
+      "kind": "standard",
+      "name": "Zinc Plates Steel Washer (M4 x 8mm OD) - 25 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2801-0004-0008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 51
+          }
+        ]
+      }
+    },
+    "gb-2802-0004-0006": {
+      "kind": "standard",
+      "name": "M4x6 Button Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2802-0004-0006"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 54
+          }
+        ]
+      }
+    },
+    "gb-2802-0004-0010": {
+      "kind": "standard",
+      "name": "M4x10 Button Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2802-0004-0010"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 55
+          }
+        ]
+      }
+    },
+    "gb-2802-0004-0016": {
+      "kind": "standard",
+      "name": "M4x16 Button Screw 25-pack",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2802-0004-0016"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 56
+          }
+        ]
+      }
+    },
+    "gb-2805-0004-0038": {
+      "kind": "standard",
+      "name": "goRAIL® Nut (5 Hole) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2805-0004-0038"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 28
+          }
+        ]
+      }
+    },
+    "gb-2805-0004-0108": {
+      "kind": "standard",
+      "name": "Hurricane Nut for goRAIL - 25 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2805-0004-0108"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 49
+          }
+        ]
+      }
+    },
+    "gb-2808-0004-0050": {
+      "kind": "standard",
+      "name": "2808 Series Stainless Steel Threaded Rod (M4 x 0.7mm, 50mm Length) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2808-0004-0050"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 40
+          }
+        ]
+      }
+    },
+    "gb-2811-0004-0007": {
+      "kind": "standard",
+      "name": "Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2811-0004-0007"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 52
+          }
+        ]
+      }
+    },
+    "gb-2812-0004-0007": {
+      "kind": "standard",
+      "name": "Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2812-0004-0007"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 53
+          }
+        ]
+      }
+    },
+    "gb-2902-0003-0001": {
+      "kind": "standard",
+      "name": "Plastic Hinge - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2902-0003-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 43
+          }
+        ]
+      }
+    },
+    "gb-2911-0014-0001": {
+      "kind": "standard",
+      "name": "Plastic Grommet (14-1) - 12 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2911-0014-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 50
+          }
+        ]
+      }
+    },
+    "gb-2913-0004-0241": {
+      "kind": "standard",
+      "name": "2913 Series Steel Ball Linkage (Female M4 x 0.7mm, 24.1mm Length) - 2 Pack - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "2913-0004-0241"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 41
+          }
+        ]
+      }
+    },
+    "gb-3202-0001-2501": {
+      "kind": "standard",
+      "name": "ServoBlock™ (Standard Size, 25 Tooth Spline, Hub Shaft) - goBILDA",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "3202-0001-2501"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 10
+          }
+        ]
+      }
+    },
+    "gb-3616-0014-0144": {
+      "kind": "standard",
+      "name": "Wasteland Wheel (144mm Diameter, 52mm Width)",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "3616-0014-0144"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 2
+          }
+        ]
+      }
+    },
+    "gb-5203-2402-0027": {
+      "kind": "standard",
+      "name": "5203 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 8mm REX™ Shaft, 223 RPM, 3.3 - 5V Encoder)",
+      "supplierParts": [
+        {
+          "supplier": "gobilda",
+          "sku": "5203-2402-0027"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 4
+          }
+        ]
+      }
+    },
+    "rocker-bogie": {
+      "kind": "custom",
+      "name": "Rocker bogie assembly",
+      "usages": [
+        {
+          "id": "1120-0001-0048",
+          "part": "gb-1120-0001-0048",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "3202-0001-2501",
+          "part": "gb-3202-0001-2501",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "2000-0025-0002",
+          "part": "gb-2000-0025-0002",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "1309-0016-0008",
+          "part": "gb-1309-0016-0008",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "1611-0514-0008",
+          "part": "gb-1611-0514-0008",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "1504-0032-0020",
+          "part": "gb-1504-0032-0020",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "2100-0008-0050",
+          "part": "gb-2100-0008-0050",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "1102-0003-0024",
+          "part": "gb-1102-0003-0024",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "1221-0032-0002",
+          "part": "gb-1221-0032-0002",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 17
+              }
+            ]
+          }
+        },
+        {
+          "id": "1126-0001-0001",
+          "part": "gb-1126-0001-0001",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 18
+              }
+            ]
+          }
+        },
+        {
+          "id": "1116-0024-0040",
+          "part": "gb-1116-0024-0040",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 19
+              }
+            ]
+          }
+        },
+        {
+          "id": "1111-0003-0001",
+          "part": "gb-1111-0003-0001",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 20
+              }
+            ]
+          }
+        },
+        {
+          "id": "1118-0024-0096",
+          "part": "gb-1118-0024-0096",
+          "quantity": {
+            "value": 3
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 21
+              }
+            ]
+          }
+        },
+        {
+          "id": "1118-0024-0288",
+          "part": "gb-1118-0024-0288",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 22
+              }
+            ]
+          }
+        },
+        {
+          "id": "1111-0001-0001",
+          "part": "gb-1111-0001-0001",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 23
+              }
+            ]
+          }
+        },
+        {
+          "id": "1137-0001-0001",
+          "part": "gb-1137-0001-0001",
+          "quantity": {
+            "value": 0.5
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "1916-0014-0072",
+          "part": "gb-1916-0014-0072",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 25
+              }
+            ]
+          }
+        },
+        {
+          "id": "1522-0010-0060",
+          "part": "gb-1522-0010-0060",
+          "quantity": {
+            "value": 0.5
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 26
+              }
+            ]
+          }
+        },
+        {
+          "id": "1522-0010-0040",
+          "part": "gb-1522-0010-0040",
+          "quantity": {
+            "value": 0.5
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 27
+              }
+            ]
+          }
+        },
+        {
+          "id": "2805-0004-0038",
+          "part": "gb-2805-0004-0038",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 28
+              }
+            ]
+          }
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 9
+          },
+          {
+            "document": "parts-list",
+            "row": 10
+          },
+          {
+            "document": "parts-list",
+            "row": 11
+          },
+          {
+            "document": "parts-list",
+            "row": 12
+          },
+          {
+            "document": "parts-list",
+            "row": 13
+          },
+          {
+            "document": "parts-list",
+            "row": 14
+          },
+          {
+            "document": "parts-list",
+            "row": 15
+          },
+          {
+            "document": "parts-list",
+            "row": 16
+          },
+          {
+            "document": "parts-list",
+            "row": 17
+          },
+          {
+            "document": "parts-list",
+            "row": 18
+          },
+          {
+            "document": "parts-list",
+            "row": 19
+          },
+          {
+            "document": "parts-list",
+            "row": 20
+          },
+          {
+            "document": "parts-list",
+            "row": 21
+          },
+          {
+            "document": "parts-list",
+            "row": 22
+          },
+          {
+            "document": "parts-list",
+            "row": 23
+          },
+          {
+            "document": "parts-list",
+            "row": 24
+          },
+          {
+            "document": "parts-list",
+            "row": 25
+          },
+          {
+            "document": "parts-list",
+            "row": 26
+          },
+          {
+            "document": "parts-list",
+            "row": 27
+          },
+          {
+            "document": "parts-list",
+            "row": 28
+          }
+        ]
+      }
+    },
+    "rover": {
+      "kind": "custom",
+      "name": "Open Source Rover",
+      "usages": [
+        {
+          "id": "drive-wheel",
+          "part": "drive-wheel",
+          "quantity": {
+            "value": 6
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "corner",
+          "part": "corner",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "rocker-bogie",
+          "part": "rocker-bogie",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "body",
+          "part": "body",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 29
+              }
+            ]
+          }
+        },
+        {
+          "id": "2805-0004-0108",
+          "part": "gb-2805-0004-0108",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 49
+              }
+            ]
+          }
+        },
+        {
+          "id": "2911-0014-0001",
+          "part": "gb-2911-0014-0001",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 50
+              }
+            ]
+          }
+        },
+        {
+          "id": "2801-0004-0008",
+          "part": "gb-2801-0004-0008",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 51
+              }
+            ]
+          }
+        },
+        {
+          "id": "2811-0004-0007",
+          "part": "gb-2811-0004-0007",
+          "quantity": {
+            "value": 4
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 52
+              }
+            ]
+          }
+        },
+        {
+          "id": "2812-0004-0007",
+          "part": "gb-2812-0004-0007",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 53
+              }
+            ]
+          }
+        },
+        {
+          "id": "2802-0004-0006",
+          "part": "gb-2802-0004-0006",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 54
+              }
+            ]
+          }
+        },
+        {
+          "id": "2802-0004-0010",
+          "part": "gb-2802-0004-0010",
+          "quantity": {
+            "value": 3
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 55
+              }
+            ]
+          }
+        },
+        {
+          "id": "2802-0004-0016",
+          "part": "gb-2802-0004-0016",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 56
+              }
+            ]
+          }
+        },
+        {
+          "id": "2800-0004-0008",
+          "part": "gb-2800-0004-0008",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 57
+              }
+            ]
+          }
+        },
+        {
+          "id": "2800-0004-0010",
+          "part": "gb-2800-0004-0010",
+          "quantity": {
+            "value": 3
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 58
+              }
+            ]
+          }
+        },
+        {
+          "id": "2800-0004-0012",
+          "part": "gb-2800-0004-0012",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 59
+              }
+            ]
+          }
+        },
+        {
+          "id": "2800-0004-0016",
+          "part": "gb-2800-0004-0016",
+          "quantity": {
+            "value": 2
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 60
+              }
+            ]
+          }
+        },
+        {
+          "id": "2800-0004-0020",
+          "part": "gb-2800-0004-0020",
+          "quantity": {
+            "value": 1
+          },
+          "provenance": {
+            "locations": [
+              {
+                "document": "parts-list",
+                "row": 61
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "documents": {
+    "parts-list": {
+      "name": "parts_list.csv",
+      "type": "other",
+      "mediaType": "text/csv",
+      "uri": "https://github.com/nasa-jpl/open-source-rover/blob/6b2c5a9c13f311e549aeddcfd11248b834bf0fd2/parts_list/parts_list.csv",
+      "sha256": "325e00b30f1f3bd914cc07de9a2b89eb81ccdeee3b32535cb7b7ae524a5f915e",
+      "size": 11157
+    }
+  },
+  "organizations": {
+    "gobilda": {
+      "name": "goBILDA",
+      "website": "https://www.gobilda.com"
+    },
+    "jpl": {
+      "name": "NASA Jet Propulsion Laboratory",
+      "aliases": [
+        "JPL"
+      ]
+    }
+  },
+  "generator": {
+    "tool": "bomkit-import",
+    "version": "0.1.0",
+    "config": {
+      "name": "osr-parts-list",
+      "version": "1"
+    },
+    "sources": [
+      "parts-list"
+    ]
+  },
+  "issues": [
+    {
+      "id": "import-a36b5fc8931c",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1611-0514-0008 (\"1611 Series Flanged Ball Bearing (8mm ID x 14mm OD, 5mm Thickness) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rocker-bogie",
+          "usage": "1611-0514-0008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-384116ba8b41",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1102-0003-0024 (\"1102 Series Flat Beam (3 Hole, 24mm Length) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rocker-bogie",
+          "usage": "1102-0003-0024"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-139e304a5eed",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1126-0001-0001 (\"1126 Series Steel Flat Bracket (1-1) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rocker-bogie",
+          "usage": "1126-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-d7cb19e4eb2d",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1137-0001-0001 (\"1137 Series Steel Flat Grid Bracket (1-1) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rocker-bogie",
+          "usage": "1137-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-579c6dbad413",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 4 for 1522-0010-0060 (\"1522 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rocker-bogie",
+          "usage": "1522-0010-0060"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-20739ced42a0",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 4 for 1522-0010-0040 (\"1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rocker-bogie",
+          "usage": "1522-0010-0040"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-0543531f5269",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 2805-0004-0038 (\"goRAIL® Nut (5 Hole) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rocker-bogie",
+          "usage": "2805-0004-0038"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-2db6ed705b63",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1506-0032-0006 (\"1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1506-0032-0006"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 32
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-8679dde06d2d",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1102-0007-0056 (\"1102 Series Flat Beam (7 Hole, 56mm Length) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1102-0007-0056"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 37
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-bc4993f1cdc4",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1205-0001-0004 (\"1205 Series Dual Block Mount (1-4) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1205-0001-0004"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-cee01812da17",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 4 for 1203-0001-0001 (\"1203 Series Block Mount (1-1) - 4 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1203-0001-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-472fc46867fd",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 2808-0004-0050 (\"2808 Series Stainless Steel Threaded Rod (M4 x 0.7mm, 50mm Length) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "2808-0004-0050"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-54e0ddd9cadd",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 2913-0004-0241 (\"2913 Series Steel Ball Linkage (Female M4 x 0.7mm, 24.1mm Length) - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "2913-0004-0241"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 41
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-f001acb2939c",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 2902-0003-0001 (\"Plastic Hinge - 2 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "2902-0003-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-37828c6bac05",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 4 for 1501-0006-0080 (\"1501 Series M4 x 0.7mm Standoff (6mm OD, 8mm Length) - 4 Pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1501-0006-0080"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 44
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-84db1d31813a",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 4 for 1501-0006-0220 (\"1501 Series M4 x 0.7mm Standoff (6mm OD, 22mm Length) - 4 Pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1501-0006-0220"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-cc1bed7147a7",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 12 for 1500-0010-0006 (\"1500 Series Plastic Spacer (6mm ID x 8mm OD, 1mm Thickness) - 12 Pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1500-0010-0006"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-0e423a1ae2dc",
+      "severity": "warning",
+      "category": "conflict",
+      "text": "Part gb-1116-0024-0040: name is \"1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm) - goBILDA\" at row 19 and \"1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm)\" at row 47. The first value is kept.",
+      "subjects": [
+        {
+          "part": "gb-1116-0024-0040",
+          "field": "/name"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 19
+          },
+          {
+            "document": "parts-list",
+            "row": 47
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-3fab07048d45",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 2 for 1102-0002-0016 (\"1102 Series Flat Beam (2 Hole, 16mm Length) - 2 Pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "body",
+          "usage": "1102-0002-0016"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 48
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-64b2e4cc36b9",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2805-0004-0108 (\"Hurricane Nut for goRAIL - 25 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2805-0004-0108"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 49
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-dc99ba1090dd",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 12 for 2911-0014-0001 (\"Plastic Grommet (14-1) - 12 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2911-0014-0001"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-40365a410b69",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2801-0004-0008 (\"Zinc Plates Steel Washer (M4 x 8mm OD) - 25 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2801-0004-0008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 51
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-effb88084444",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2811-0004-0007 (\"Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2811-0004-0007"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 52
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-90a6411a96a3",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2812-0004-0007 (\"Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2812-0004-0007"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 53
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-becaa64fa5d3",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2802-0004-0006 (\"M4x6 Button Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2802-0004-0006"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 54
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-eea966ae7587",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2802-0004-0010 (\"M4x10 Button Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2802-0004-0010"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-fe0dc0d16c99",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2802-0004-0016 (\"M4x16 Button Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2802-0004-0016"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-eba99d8f1095",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2800-0004-0008 (\"M4x8 Socket Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2800-0004-0008"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 57
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-dfa8c82d2c53",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2800-0004-0010 (\"M4x10 Socket Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2800-0004-0010"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-d79d18088303",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2800-0004-0012 (\"M4x12 Socket Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2800-0004-0012"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 59
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-e04385a1c60f",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2800-0004-0016 (\"M4x16 Socket Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2800-0004-0016"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-72dc524ced95",
+      "severity": "info",
+      "category": "assumption",
+      "text": "The source counts packs of 25 for 2800-0004-0020 (\"M4x20 Socket Screw 25-pack\"). The quantity is imported as written: convert it to pieces and set a pack size.",
+      "subjects": [
+        {
+          "part": "rover",
+          "usage": "2800-0004-0020"
+        }
+      ],
+      "provenance": {
+        "locations": [
+          {
+            "document": "parts-list",
+            "row": 61
+          }
+        ]
+      }
+    }
+  ]
+}
