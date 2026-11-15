@@ -13,6 +13,10 @@ const outDir = join(
 );
 mkdirSync(outDir, { recursive: true });
 copyFileSync(join(outDir, "..", "..", "LICENSE"), join(outDir, "LICENSE"));
+copyFileSync(
+  join(outDir, "..", "..", "THIRD_PARTY_NOTICES.md"),
+  join(outDir, "THIRD_PARTY_NOTICES.md"),
+);
 for (const [file, schema] of Object.entries(buildSchemas())) {
   writeFileSync(join(outDir, file), JSON.stringify(schema, null, 2) + "\n");
   console.log("generated/schema/" + file);

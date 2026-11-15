@@ -60,7 +60,8 @@ export type Dictionary = "iec61360" | "iec62683" | "etim" | "eclass";
 /**
  * A property named by the dictionary that defines it: `<dictionary>:<code>`.
  * The dictionary is the authority on its meaning, type and unit; this
- * specification only carries the value.
+ * specification only carries the value. It does not supply the dictionary
+ * or grant rights to its content; its owner's terms continue to apply.
  */
 export const DICTIONARY_KEY_PATTERN =
   "^((iec61360|iec62683):[A-Z]{3}[0-9A-Z]{3}|etim:EF[0-9]{6}|eclass:02-[A-Z]{3}[0-9]{3})$";

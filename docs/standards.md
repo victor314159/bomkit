@@ -38,75 +38,26 @@ Also used: **IEC 81346** for reference designations (a designator scheme),
 
 ### Properties and IEC 61360-4
 
-The keys of the electronics profile, and the core keys it shares, were
-checked against the IEC Common Data Dictionary
-([cdd.iec.ch](https://cdd.iec.ch), dictionary IEC 61360-4, read in November
-2026). bomkit keys are generic; the dictionary defines its properties per
-class of component, often several for one bomkit key, so an exporter picks
-the IEC property from the key _and_ the category of the part.
+The electronics profile provides generic purchasing characteristics using
+bomkit's own descriptions. It does not embed IEC CDD property tables or
+value lists. `dielectric`, `mounting` and `msl` carry the source's text;
+bomkit does not validate their values against an IEC enumeration.
 
-| bomkit                                  | IEC 61360-4 preferred name (code `0112/2///61360_4#…`)                                                                                                                                                 |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `resistance`                            | resistance (`AAE119`, fixed and variable resistors)                                                                                                                                                    |
-| `capacitance`                           | capacitance (`AAE046`, fixed capacitor)                                                                                                                                                                |
-| `inductance`                            | inductance (`AAE517`, inductor, motor, antenna)                                                                                                                                                        |
-| `frequency`                             | frequency (`AAE029`), nominal frequency (`AFD014`)                                                                                                                                                     |
-| `ratedVoltage`                          | rated voltage (`AAJ010`, `AAH012` connector, `AAJ060`), rated voltage (dc) (`AAE044`), rated voltage (ac) (`AAE045`)                                                                                   |
-| `ratedCurrent`                          | rated current (`AAE525`, `AAH066`)                                                                                                                                                                     |
-| `ratedPower`                            | no "rated power"; nearest is power dissipation (`AAE257`)                                                                                                                                              |
-| `tolerance` of a measure                | symmetric, positive and negative tolerance (`AAF443`, `AAF445`, `AAF444`), and their per-quantity variants (`AAF451`–`AAF453` resistance, `AAF447`–`AAF449` capacitance, `AAJ076`/`AAJ077` inductance) |
-| `pins`                                  | number of terminals (`AAD191`, `AAE754`), number of contacts (`AAE359`)                                                                                                                                |
-| `pitch`                                 | terminal pitch (`AAE024`), contact pitch (`AAJ039`)                                                                                                                                                    |
-| `length`, `width`, `height`, `diameter` | body length, breadth, height, diameter (`AAE019`, `AAE021`, `AAE020`, `AAF320`); also package… (`AAG013`, `AAG016`, `AAG003`, `AAG014`) and overall… (`AAE581`, `AAG024`, `AAG125`, `AAG025`)          |
-| `mounting`                              | mounting method (`AAF343`), value list `ASA214`                                                                                                                                                        |
-| `package`                               | standard package code (`AAG070`), manufacturer package code (`AAG069`), size code EIA (`AAF353`), case size (`AAF388`)                                                                                 |
-| `dielectric`                            | dielectric class (ceramic cap) (`AAE038`), value list `ASA035`                                                                                                                                         |
-| `color`                                 | package colour (`AAE560`), housing colour (`AAH065`)                                                                                                                                                   |
-| `thickness`, `mass`                     | no generic property in IEC 61360-4                                                                                                                                                                     |
-| `msl`                                   | moisture sensitivity level (`AAD196`)                                                                                                                                                                  |
-| `operatingTemperature`                  | ambient temperature (`AAE014`, `AAF484`), operating temperature range (`AFD019`)                                                                                                                       |
+For dictionary references, consult the official
+[IEC Common Data Dictionary](https://cdd.iec.ch). Dictionary keys carry
+identifiers and values without embedding the referenced dictionary.
+Importers and exporters are responsible for selecting the appropriate
+property and checking its meaning, type and unit. Dictionary content
+remains subject to its owner's terms; see the
+[IEC copyright conditions](https://webstore.iec.ch/en/copyright).
 
-Names and codes come from the dictionary's list of properties; definitions
-and units were read for `resistance`, `capacitance`, `inductance`,
-`frequency`, connector `rated voltage` and `mounting method` only. The
-ECLASS and IEC 62683 dictionaries were not read: only the form of their
-codes is checked. ETIM sources for the additional profiles follow.
+### ETIM attribution
 
-The electronics value-domain audit distinguishes IEC source records
-republished by [OpenCDD](https://opencdd.github.io/d/iec-61360-4/) from the
-official live CDD. OpenCDD is an independent mirror of IEC data, not an IEC
-publication. Its free metadata (types, identifiers, names and enumerations,
-© IEC) were consulted on 15 November 2026. The page versions and
-revisions observed were:
-
-| key or dictionary property | source record                                                                                       | type / value list                                                                     |
-| -------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| `package`                  | [AAG070 v2 rev5](https://opencdd.github.io/d/iec-61360-4/p/AAG070/), standard package code          | `STRING_TYPE`                                                                         |
-| `package`                  | [AAG069 v2 rev5](https://opencdd.github.io/d/iec-61360-4/p/AAG069/), manufacturer package code      | `STRING_TYPE`                                                                         |
-| `package`                  | [AAF353 v1 rev3](https://opencdd.github.io/d/iec-61360-4/p/AAF353/), EIA size code                  | `STRING_TYPE`                                                                         |
-| `dielectric`               | [AAE038 v1 rev5](https://opencdd.github.io/d/iec-61360-4/p/AAE038/)                                 | `ENUM_CODE_TYPE`, [ASA035 v1 rev2](https://opencdd.github.io/d/iec-61360-4/v/ASA035/) |
-| `msl`                      | [AAD196 v2 rev6](https://opencdd.github.io/d/iec-61360-4/p/AAD196/)                                 | `ENUM_CODE_TYPE`, [ASA018 v1 rev2](https://opencdd.github.io/d/iec-61360-4/v/ASA018/) |
-| `mounting`                 | [AAF343 v1 rev5](https://opencdd.github.io/d/iec-61360-4/p/AAF343/)                                 | `ENUM_CODE_TYPE`, [ASA214 v1 rev2](https://opencdd.github.io/d/iec-61360-4/v/ASA214/) |
-| `iec61360:AAE037`          | [AAE037 v1 rev5](https://opencdd.github.io/d/iec-61360-4/p/AAE037/), EIA temperature characteristic | `STRING_TYPE`                                                                         |
-
-The accepted values are defined in
-[`ElectronicsProperties`](../src/profiles/electronics.ts) and the generated
-JSON Schema. The referenced IEC value lists define their meanings;
-bomkit uses short representations for the terms.
-
-Additional references:
-
-- [IPC/JEDEC J-STD-020 levels, reproduced in onsemi SOLDERRM/D, revision 15, Table 14](https://www.onsemi.com/download/reference-manuals/pdf/solderrm-d.pdf)
-  and [Microchip/Microsemi 51700045, revision 5, Table 1](https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ApplicationNotes/ApplicationNotes/Microsemi_Moisture_Sensitivity_Application_Note_V5.pdf).
-- [IEC 61360-4:2005, Annex A](https://www.iteh.fr/catalog/standards/iec/f35542e0-4434-451d-ad01-ddb2a5a81d71/iec-61360-4-2005), ceramic dielectric classes.
-- [IEC 60191-4:2013](https://standards.iteh.ai/catalog/standards/iec/9c56c4df-944d-434b-9e25-5d9987fee8f5/iec-60191-4-2013), package designation method.
-
-Ceramic dielectric class and EIA temperature characteristic are distinct:
-the example's X7R characteristic uses `iec61360:AAE037`.
-
-The official CDD was inaccessible during this verification. The metadata
-copy above does not establish freshness against the live CDD or provide
-its reserved definitions and additional constraints.
+The electrical and wiring profiles contain information from the ETIM
+classification model, provided by ETIM International under the
+[Open Data Commons Attribution License 1.0](https://opendatacommons.org/licenses/by/1-0/).
+See [third-party notices](../THIRD_PARTY_NOTICES.md) for scope and adaptations.
+The source classes and versions are recorded below.
 
 ### Properties and ETIM: electrical
 
@@ -190,9 +141,7 @@ across trades; no additional colour key is introduced.
 
 ### Property domains kept open
 
-Every property in the core and three profiles was audited for a finite
-choice domain. A standardized property does not necessarily have a closed
-list of values:
+Core and profile properties use the following open domains:
 
 | domain                                                                                   | representation            | reason                                                                                                          |
 | ---------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -200,9 +149,12 @@ list of values:
 | poles, cores, contacts, levels, pins                                                     | integer counts            | counts are not a list of preferred catalogue values                                                             |
 | `crossSection`                                                                           | area measure              | ETIM is numeric; IEC 60228 applicability depends on the cable standard and does not cover every wire            |
 | `color`                                                                                  | text                      | shared by all trades; IEC 60757 clause 4 permits documented additional codes, and clause 5 permits combinations |
-| `package`                                                                                | text                      | the three IEC package records are `STRING_TYPE`; full codes and vendor variants are not a small family enum     |
+| `package`                                                                                | text                      | package designations are carried as source text without a built-in list                                         |
+| `dielectric`, `mounting`, `msl`                                                          | text                      | source designations are preserved without embedding IEC value lists                                             |
 | dictionary and `x-` keys                                                                 | `PropertyValue`           | dictionary-specific domains and private data are carried without a built-in vocabulary for every possible code  |
 
-All verified finite profile choice domains are literal unions in TypeScript
-and enumerations in the generated JSON Schema. Unknown choices use the
-existing `x-` mechanism; where ETIM defines `Other`, that choice is accepted.
+The ETIM choice domains in the electrical and wiring profiles are literal
+unions in TypeScript and enumerations in the generated JSON Schema. Unknown
+choices use the existing `x-` mechanism; where ETIM defines `Other`, that
+choice is accepted. The three open electronics fields above accept text
+directly, including designations outside the former enumerations.

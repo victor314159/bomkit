@@ -1,4 +1,6 @@
 // Profile "wiring": purchasing characteristics of wires and cables.
+// Contains ETIM-derived information (ETIM International, ODC-BY 1.0).
+// See THIRD_PARTY_NOTICES.md for attribution, licence and adaptations.
 // ETIM feature names, types and units were read in November 2026;
 // the README records the source classes and IEC 60228 / IEC 60757 references.
 

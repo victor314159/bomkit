@@ -14,6 +14,10 @@ const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
 const outDir = join(rootDir, "generated", "examples");
 mkdirSync(outDir, { recursive: true });
 copyFileSync(join(rootDir, "LICENSE"), join(outDir, "LICENSE"));
+copyFileSync(
+  join(rootDir, "THIRD_PARTY_NOTICES.md"),
+  join(outDir, "THIRD_PARTY_NOTICES.md"),
+);
 copyFileSync(join(rootDir, "examples", "README.md"), join(outDir, "README.md"));
 cpSync(join(rootDir, "examples", "LICENSES"), join(outDir, "LICENSES"), {
   recursive: true,

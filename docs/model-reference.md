@@ -54,18 +54,19 @@ Geometry itself (shape, placement) stays in the MCAD and ECAD files.
 the same standing.
 
 _Electronics_ ([`ElectronicsProperties`](../src/profiles/electronics.ts)), for
-generic electronic and electromechanical components, each key a property of
-IEC 61360-4 (see the [correspondence](standards.md#properties-and-iec-61360-4)):
+generic electronic and electromechanical components. The profile uses
+bomkit descriptions and carries source designations without embedding IEC
+value lists (see the [dictionary references](standards.md#properties-and-iec-61360-4)):
 
-| key                                                    | value                                                     | example                                                |
-| ------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------ |
-| `resistance`, `capacitance`, `inductance`, `frequency` | measure (`Ohm`, `F`, `H`, `Hz`)                           | `{ value: 22, unit: "pF", tolerance: { percent: 5 } }` |
-| `pitch`                                                | measure (a length)                                        | `{ value: 2.54, unit: "mm" }`                          |
-| `pins`                                                 | whole number                                              | `8`                                                    |
-| `mounting`                                             | IEC 61360-4 mounting method, value list `ASA214`          | `"surfaceMounted"`                                     |
-| `package`                                              | text, standard or manufacturer package code               | `"0603"`                                               |
-| `dielectric`                                           | IEC 61360-4 ceramic dielectric class, value list `ASA035` | `"CL2"`                                                |
-| `msl`                                                  | IPC/JEDEC J-STD-020 level, represented as text            | `"3"`                                                  |
+| key                                                    | value                                       | example                                                |
+| ------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------ |
+| `resistance`, `capacitance`, `inductance`, `frequency` | measure (`Ohm`, `F`, `H`, `Hz`)             | `{ value: 22, unit: "pF", tolerance: { percent: 5 } }` |
+| `pitch`                                                | measure (a length)                          | `{ value: 2.54, unit: "mm" }`                          |
+| `pins`                                                 | whole number                                | `8`                                                    |
+| `mounting`                                             | text, source mounting method                | `"surfaceMounted"`                                     |
+| `package`                                              | text, standard or manufacturer package code | `"0603"`                                               |
+| `dielectric`                                           | text, source dielectric class               | `"CL2"`                                                |
+| `msl`                                                  | text, source moisture sensitivity level     | `"3"`                                                  |
 
 _Electrical_ ([`ElectricalProperties`](../src/profiles/electrical.ts)), for
 breakers, contactors, relays, terminal blocks and control transformers.
@@ -111,8 +112,12 @@ applicable, including combinations (see the [references](standards.md#properties
 The source must specify the colours: neither core count nor the presence
 of protective earth determines the full colour assignment.
 Outer dimensions, mass, colour, ratings and operating temperature use the
-core keys in both profiles. No trade-specific mounting key is introduced:
-the electronics `mounting` list does not describe DIN rails.
+core keys in both profiles. `mounting` accepts the source mounting
+designation as text, including rail mounting.
+
+`dielectric`, `mounting` and `msl` are open text fields. Existing string
+values remain accepted; the validator checks their type without enforcing
+a standardized choice list.
 
 A characteristic that has a core or profile key MUST use it. Measures and
 ranges of these properties constrain their units by dimension at all three

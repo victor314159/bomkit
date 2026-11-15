@@ -1,5 +1,7 @@
 // Profile "electrical": purchasing characteristics of switchgear,
 // contactors, relays, terminal blocks and control transformers.
+// Contains ETIM-derived information (ETIM International, ODC-BY 1.0).
+// See THIRD_PARTY_NOTICES.md for attribution, licence and adaptations.
 // ETIM feature names, types and units were read in November 2026;
 // the README records the source classes and versions for each mapping.
 

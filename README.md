@@ -168,7 +168,9 @@ Use the first applicable vocabulary:
 | private       | `x-drive`, `x-ratedVoltage`                   | data other tools need not understand                                                                                   |
 
 A characteristic with a core or profile key MUST use that key. Other names
-must be dictionary keys or start with `x-`.
+must be dictionary keys or start with `x-`. Dictionary support carries
+references and values; it does not supply the dictionaries or grant rights
+to their contents.
 
 Measures carry a value and unit, with optional tolerance:
 
@@ -423,8 +425,12 @@ Open questions:
 
 ## License
 
-The specification, documentation, types, generated schemas and reference
-tools use the [MIT licence](LICENSE).
+Original bomkit contributions to the specification, documentation, types,
+generated schemas and reference tools use the [MIT licence](LICENSE).
+ETIM-derived content in the electrical and wiring profiles, their documented
+mappings and generated schemas retains its third-party terms; see
+[third-party notices](THIRD_PARTY_NOTICES.md). Generated schema and example
+directories include a copy of these notices.
 
 Third-party examples retain their [own licences and attributions](examples/README.md),
 including generated JSON. Exports include the relevant notices and licence texts.

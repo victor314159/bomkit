@@ -436,13 +436,13 @@ test("typia and the JSON Schema reject the same invalid documents", () => {
       (d) => (d.parts["uno-r3"].properties = { "unspsc:123": 1 }),
     ],
     [
-      "mounting method of IEC 61360-4",
+      "source mounting method",
       true,
       (d) => (d.parts["uno-r3"].properties = { mounting: "surfaceMounted" }),
     ],
     [
-      "mounting method outside the list",
-      false,
+      "mounting method outside the former list",
+      true,
       (d) => (d.parts["uno-r3"].properties = { mounting: "rail" }),
     ],
     [
@@ -617,7 +617,7 @@ test("all profile choice lists and counts agree in typia and JSON Schema", () =>
       verify({ [key]: value }, false);
     verify({ [key]: 0 }, !["poles", "cores", "levels", "pins"].includes(key));
   }
-  // Choice domains from the expanded ETIM and IEC lists and J-STD-020.
+  // Choice domains from ETIM.
   const choices: [string, string[], string[]][] = [
     [
       "curve",
@@ -693,23 +693,18 @@ test("all profile choice lists and counts agree in typia and JSON Schema", () =>
       ],
       ["Paper", "Polytetrafluoroethylene (PTFE)", "PVC"],
     ],
-    [
-      "msl",
-      ["1", "2", "2a", "3", "4", "5", "5a", "6"],
-      ["0", "2A", "5A", "7", "MSL3"],
-    ],
-    ["dielectric", ["CL1", "CL2"], ["X7R", "C0G", "NP0", "class1", "CL3"]],
-    [
-      "mounting",
-      ["surfaceMounted", "inserted", "flangeMounted", "studMounted"],
-      ["rail", "smd", "Other"],
-    ],
   ];
   for (const [key, values, rejected] of choices) {
     for (const value of values) verify({ [key]: value }, true);
     for (const value of ["", ...rejected]) verify({ [key]: value }, false);
     verify({ [key]: 1 }, false);
   }
+  // Electronics source designations remain text, beyond the former lists.
+  for (const key of ["dielectric", "mounting", "msl"]) {
+    verify({ [key]: "supplier designation" }, true);
+    for (const value of [1, false, {}, []]) verify({ [key]: value }, false);
+  }
+  verify({ dielectric: "CL2", mounting: "surfaceMounted", msl: "3" }, true);
   verify({ curve: "Other", "x-curve": "manufacturer-specific" }, true);
   verify(
     { conductorMaterial: "Other", "x-conductorMaterial": "supplier alloy" },

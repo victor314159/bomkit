@@ -40,6 +40,10 @@ npm run examples
 The output goes to `generated/`. Release versions will start with
 `SPEC_VERSION` (`0.1.x` releases all describe specification `0.1`).
 
+Distribute the generated schema and example directories with their
+`LICENSE` and `THIRD_PARTY_NOTICES.md` files. Example exports also include
+their source notes and third-party licence texts; keep those alongside them.
+
 Typia's runtime validators check everything; the JSON Schema checks all but
 what it cannot express. The generator adds two fix-ups for what typia does
 not emit (`x-` extension keys, keys of id maps); see
